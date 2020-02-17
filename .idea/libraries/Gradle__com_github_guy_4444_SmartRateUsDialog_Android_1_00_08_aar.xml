@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.guy-4444:SmartRateUsDialog-Android:1.00.08@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4b53322b5db4ba0cdfee830a1d188756/jetified-SmartRateUsDialog-Android-1.00.08/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4b53322b5db4ba0cdfee830a1d188756/jetified-SmartRateUsDialog-Android-1.00.08/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.guy-4444/SmartRateUsDialog-Android/1.00.08/5ca1f11b8860bce19dd5428465b0f631c5bafadd/SmartRateUsDialog-Android-1.00.08-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "400345032288",
+    "firebase_url": "https://aaaa-3989e.firebaseio.com",
+    "project_id": "aaaa-3989e",
+    "storage_bucket": "aaaa-3989e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400345032288:android:db4346d3d0257f4d5ac505",
+        "android_client_info": {
+          "package_name": "com.newmovies2020.streamingmoviehd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "400345032288-bbvk6rj2q3bfk2t8n30icrf5mic83m93.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCU2G6fTKlsGasJd72KrVBEhQw21FseGHw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "400345032288-bbvk6rj2q3bfk2t8n30icrf5mic83m93.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
