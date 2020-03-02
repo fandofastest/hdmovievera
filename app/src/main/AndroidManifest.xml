@@ -17,6 +17,10 @@
     <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
 
     <application
         android:name="com.newmovies2020.streamingmoviehd.newmovies2020_utl.MyAppClass"
@@ -27,6 +31,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
+        android:hardwareAccelerated="true"
         tools:ignore="GoogleAppIndexingWarning">
         <activity android:name="com.newmovies2020.streamingmoviehd.WebViewActivity"
             android:screenOrientation="landscape"

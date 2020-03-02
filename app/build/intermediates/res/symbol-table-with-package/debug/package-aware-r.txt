@@ -3465,6 +3465,7 @@ string common_signin_button_text
 string common_signin_button_text_long
 string contact_email
 string contact_us
+string copy_toast_msg
 string copyright
 string copyright_text
 string country
@@ -3496,6 +3497,9 @@ string explore_by_genre
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string fallback_menu_item_copy_link
+string fallback_menu_item_open_in_browser
+string fallback_menu_item_share_link
 string fav
 string fcm_fallback_notification_channel_label
 string featured_tv_channels
@@ -4490,6 +4494,7 @@ styleable ViewPager2 android_orientation
 styleable ViewPagerIndicator vpiCirclePageIndicatorStyle vpiIconPageIndicatorStyle vpiLinePageIndicatorStyle vpiTabPageIndicatorStyle vpiTitlePageIndicatorStyle vpiUnderlinePageIndicatorStyle
 styleable ViewStubCompat android_id android_layout android_inflatedId
 xml caption_preference
+xml image_share_filepaths
 xml standalone_badge
 xml standalone_badge_gravity_bottom_end
 xml standalone_badge_gravity_bottom_start

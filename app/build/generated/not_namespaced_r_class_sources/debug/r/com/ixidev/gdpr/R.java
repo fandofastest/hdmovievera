@@ -871,15 +871,15 @@ public final class R {
         public static final int abc_toolbar_collapse_description = 0x7f11001b;
         public static final int app_name = 0x7f110021;
         public static final int common_google_play_services_unknown_issue = 0x7f1100aa;
-        public static final int s1 = 0x7f11013c;
-        public static final int s2 = 0x7f11013d;
-        public static final int s3 = 0x7f11013e;
-        public static final int s4 = 0x7f11013f;
-        public static final int s5 = 0x7f110140;
-        public static final int s6 = 0x7f110141;
-        public static final int s7 = 0x7f110142;
-        public static final int search_menu_title = 0x7f110145;
-        public static final int status_bar_notification_info_overflow = 0x7f11014a;
+        public static final int s1 = 0x7f110140;
+        public static final int s2 = 0x7f110141;
+        public static final int s3 = 0x7f110142;
+        public static final int s4 = 0x7f110143;
+        public static final int s5 = 0x7f110144;
+        public static final int s6 = 0x7f110145;
+        public static final int s7 = 0x7f110146;
+        public static final int search_menu_title = 0x7f110149;
+        public static final int status_bar_notification_info_overflow = 0x7f11014e;
     }
     public static final class style {
         private style() {}

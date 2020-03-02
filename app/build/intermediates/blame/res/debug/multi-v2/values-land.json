@@ -1,10 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\PRIVATE\\newhdmov\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+            "outputFile": "C:\\Users\\admin\\StudioProjects\\hdmovievera\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\FANDO\\.gradle\\caches\\transforms-2\\files-2.1\\dc483e3dce6c90b069c03ca7ed85ad20\\mediarouter-1.0.0-alpha5\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-2\\files-2.1\\06a34d440d7d7b03e6ed5597db11dfb4\\jetified-play-services-cast-framework-15.0.1\\res\\values-land\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9",
+                        "startColumns": "0,0,0,0,0,0",
+                        "startOffsets": "181,262,342,412,481,576",
+                        "endColumns": "80,79,69,68,94,90",
+                        "endOffsets": "261,341,411,480,575,666"
+                    },
+                    "to": {
+                        "startLines": "5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "264,349,433,507,580,679",
+                        "endColumns": "84,83,73,72,98,94",
+                        "endOffsets": "344,428,502,575,674,769"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-2\\files-2.1\\dc483e3dce6c90b069c03ca7ed85ad20\\mediarouter-1.0.0-alpha5\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",
@@ -21,17 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\FANDO\\.gradle\\caches\\transforms-2\\files-2.1\\5425043d3f7850c1e723018c326a15df\\appcompat-1.2.0-alpha01\\res\\values-land\\values-land.xml",
-                    "from": {
-                        "startLines": "2,3,4",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,125,196",
-                        "endColumns": "69,70,67",
-                        "endOffsets": "120,191,259"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\FANDO\\.gradle\\caches\\transforms-2\\files-2.1\\5ce14682e9b1a248d45398431a347b8b\\material-1.2.0-alpha02\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-2\\files-2.1\\5ce14682e9b1a248d45398431a347b8b\\material-1.2.0-alpha02\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,24,30",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -50,7 +57,17 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\FANDO\\.gradle\\caches\\transforms-2\\files-2.1\\d649f492592e73786edf75dbb2404e0d\\jetified-ccl-2.8.4\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-2\\files-2.1\\5425043d3f7850c1e723018c326a15df\\appcompat-1.2.0-alpha01\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,125,196",
+                        "endColumns": "69,70,67",
+                        "endOffsets": "120,191,259"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-2\\files-2.1\\0a3c7c00ad68d3f29c96d8b77eb8fa64\\jetified-ccl-2.8.4\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "4,5,6",
                         "startColumns": "4,4,4",
@@ -64,23 +81,6 @@
                         "startOffsets": "774,836,897",
                         "endColumns": "61,60,52",
                         "endOffsets": "831,892,945"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\FANDO\\.gradle\\caches\\transforms-2\\files-2.1\\a8d69780bec83dd22df18d9a424e9137\\jetified-play-services-cast-framework-15.0.1\\res\\values-land\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9",
-                        "startColumns": "0,0,0,0,0,0",
-                        "startOffsets": "181,262,342,412,481,576",
-                        "endColumns": "80,79,69,68,94,90",
-                        "endOffsets": "261,341,411,480,575,666"
-                    },
-                    "to": {
-                        "startLines": "5,6,7,8,9,10",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "264,349,433,507,580,679",
-                        "endColumns": "84,83,73,72,98,94",
-                        "endOffsets": "344,428,502,575,674,769"
                     }
                 }
             ]

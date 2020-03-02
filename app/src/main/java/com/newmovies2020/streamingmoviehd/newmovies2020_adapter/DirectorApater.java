@@ -137,12 +137,6 @@ public class DirectorApater extends RecyclerView.Adapter<DirectorApater.Original
                             }
 
 
-
-
-                            return;
-
-
-
                         } else if (items[item].equals("Play")) {
 
                             ((DetailsActivity)ctx).setMediaUrlForTvSeries(obj.getStreamURL(), obj.getSeson(), obj.getEpi());

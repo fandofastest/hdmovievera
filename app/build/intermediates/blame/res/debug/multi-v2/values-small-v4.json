@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\PRIVATE\\newhdmov\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-small-v4\\values-small-v4.xml",
+            "outputFile": "C:\\Users\\admin\\StudioProjects\\hdmovievera\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-small-v4\\values-small-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\FANDO\\.gradle\\caches\\transforms-2\\files-2.1\\5ce14682e9b1a248d45398431a347b8b\\material-1.2.0-alpha02\\res\\values-small-v4\\values-small-v4.xml",
+                    "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-2\\files-2.1\\5ce14682e9b1a248d45398431a347b8b\\material-1.2.0-alpha02\\res\\values-small-v4\\values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

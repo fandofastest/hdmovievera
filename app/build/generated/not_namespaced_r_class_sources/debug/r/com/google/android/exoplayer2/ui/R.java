@@ -111,17 +111,17 @@ public final class R {
     public static final class string {
         private string() {}
 
-        public static final int exo_controls_fastforward_description = 0x7f1100c5;
-        public static final int exo_controls_next_description = 0x7f1100c6;
-        public static final int exo_controls_pause_description = 0x7f1100c7;
-        public static final int exo_controls_play_description = 0x7f1100c8;
-        public static final int exo_controls_previous_description = 0x7f1100c9;
-        public static final int exo_controls_repeat_all_description = 0x7f1100ca;
-        public static final int exo_controls_repeat_off_description = 0x7f1100cb;
-        public static final int exo_controls_repeat_one_description = 0x7f1100cc;
-        public static final int exo_controls_rewind_description = 0x7f1100cd;
-        public static final int exo_controls_shuffle_description = 0x7f1100ce;
-        public static final int exo_controls_stop_description = 0x7f1100cf;
+        public static final int exo_controls_fastforward_description = 0x7f1100c6;
+        public static final int exo_controls_next_description = 0x7f1100c7;
+        public static final int exo_controls_pause_description = 0x7f1100c8;
+        public static final int exo_controls_play_description = 0x7f1100c9;
+        public static final int exo_controls_previous_description = 0x7f1100ca;
+        public static final int exo_controls_repeat_all_description = 0x7f1100cb;
+        public static final int exo_controls_repeat_off_description = 0x7f1100cc;
+        public static final int exo_controls_repeat_one_description = 0x7f1100cd;
+        public static final int exo_controls_rewind_description = 0x7f1100ce;
+        public static final int exo_controls_shuffle_description = 0x7f1100cf;
+        public static final int exo_controls_stop_description = 0x7f1100d0;
     }
     public static final class style {
         private style() {}

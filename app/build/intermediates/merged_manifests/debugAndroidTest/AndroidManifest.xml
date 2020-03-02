@@ -3,7 +3,7 @@
     package="com.newmovies2020.streamingmoviehd.test" >
 
     <uses-sdk
-        android:minSdkVersion="21"
+        android:minSdkVersion="24"
         android:targetSdkVersion="29" />
 
     <instrumentation

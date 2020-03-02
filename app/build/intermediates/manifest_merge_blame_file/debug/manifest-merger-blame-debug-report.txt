@@ -1,704 +1,723 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="com.newmovies2020.streamingmoviehd"
-4    android:versionCode="1"
-5    android:versionName="1.0" >
+4    android:versionCode="2"
+5    android:versionName="1.1" >
 6
 7    <uses-sdk
-8        android:minSdkVersion="21"
-8-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml
+8        android:minSdkVersion="24"
+8-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml
+9-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml
 10
 11    <uses-feature
-11-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:7:5-9:36
+11-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:7:5-9:36
 12        android:name="android.software.leanback"
-12-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:8:9-49
+12-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:8:9-49
 13        android:required="false" />
-13-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:9:9-33
+13-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:9:9-33
 14    <uses-feature
-14-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:10:5-12:36
+14-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:10:5-12:36
 15        android:name="android.hardware.touchscreen"
-15-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:11:9-52
+15-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:11:9-52
 16        android:required="false" />
-16-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:12:9-33
+16-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:12:9-33
 17
 18    <uses-permission android:name="android.permission.INTERNET" />
-18-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:14:5-67
-18-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:14:22-64
+18-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:14:5-67
+18-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:14:22-64
 19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-19-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:15:5-79
-19-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:15:22-76
+19-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:15:5-79
+19-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:15:22-76
 20    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-20-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:16:5-80
-20-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:16:22-77
+20-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:16:5-80
+20-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:16:22-77
 21    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
-21-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:17:5-80
-21-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:17:22-77
+21-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:17:5-80
+21-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:17:22-77
 22    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-22-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:18:5-81
-22-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:18:22-78
+22-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:18:5-81
+22-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:18:22-78
 23    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
-23-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:19:5-81
-23-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:19:22-78
-24    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Create a unique permission for your app and use it so only your app can receive your OneSignal messages. -->
-24-->[com.google.android.libraries.cast.companionlibrary:ccl:2.8.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d649f492592e73786edf75dbb2404e0d\jetified-ccl-2.8.4\AndroidManifest.xml:26:5-76
-24-->[com.google.android.libraries.cast.companionlibrary:ccl:2.8.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d649f492592e73786edf75dbb2404e0d\jetified-ccl-2.8.4\AndroidManifest.xml:26:22-73
-25    <permission
-25-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:7:5-9:47
-26        android:name="com.newmovies2020.streamingmoviehd.permission.C2D_MESSAGE"
-26-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:8:9-63
-27        android:protectionLevel="signature" />
-27-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:9:9-44
-28
-29    <uses-permission android:name="com.newmovies2020.streamingmoviehd.permission.C2D_MESSAGE" />
-29-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:11:5-79
-29-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:11:22-76
-30    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> <!-- Required, makes sure notifications are delivered on time. -->
-30-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:17:5-82
-30-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:17:22-79
-31    <uses-permission android:name="android.permission.WAKE_LOCK" />
-31-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:18:5-68
-31-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:18:22-65
-32    <!--
-33 Required so the device vibrates on receiving a push notification.
-34         Vibration settings of the device still apply.
-35    -->
-36    <uses-permission android:name="android.permission.VIBRATE" />
-36-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:23:5-66
-36-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:23:22-63
-37    <!--
-38 Use to restore notifications the user hasn't interacted with.
-39         They could be missed notifications if the user reboots their device if this isn't in place.
-40    -->
-41    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> <!-- START: ShortcutBadger -->
-41-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:29:5-81
-41-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:29:22-78
-42    <!-- Samsung -->
-43    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
-43-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:31:5-86
-43-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:31:22-83
-44    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- HTC -->
-44-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:32:5-87
-44-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:32:22-84
-45    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
-45-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:33:5-81
-45-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:33:22-78
-46    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- Sony -->
-46-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:34:5-83
-46-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:34:22-80
-47    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
-47-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:35:5-88
-47-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:35:22-85
-48    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- Apex -->
-48-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:36:5-92
-48-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:36:22-89
-49    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- Solid -->
-49-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:37:5-84
-49-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:37:22-81
-50    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- Huawei -->
-50-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:38:5-83
-50-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:38:22-80
-51    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
-51-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:39:5-91
-51-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:39:22-88
-52    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
-52-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:40:5-92
-52-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:40:22-89
-53    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- ZUK -->
-53-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:41:5-93
-53-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:41:22-90
-54    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- OPPO -->
-54-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:42:5-73
-54-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:42:22-70
-55    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
-55-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:43:5-82
-55-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:43:22-79
-56    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- EvMe -->
-56-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:44:5-83
-56-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:44:22-80
-57    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
-57-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:45:5-88
-57-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:45:22-85
-58    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
-58-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:46:5-89
-58-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:46:22-86
-59    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
-59-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\0ff497b4df1b0505c7021961a10dc4f5\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:26:5-110
-59-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\0ff497b4df1b0505c7021961a10dc4f5\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:26:22-107
-60
-61    <application
-61-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:21:5-112:19
-62        android:name="com.newmovies2020.streamingmoviehd.newmovies2020_utl.MyAppClass"
-62-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:22:9-87
-63        android:allowBackup="true"
-63-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:23:9-35
-64        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-64-->[androidx.core:core:1.1.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\e91594602c73eba9f0c6fb1745d43dba\core-1.1.0\AndroidManifest.xml:24:18-86
-65        android:debuggable="true"
-66        android:icon="@mipmap/ic_launcher"
-66-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:24:9-43
-67        android:label="@string/app_name"
-67-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:25:9-41
-68        android:roundIcon="@mipmap/ic_launcher_round"
-68-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:26:9-54
-69        android:supportsRtl="true"
-69-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:27:9-35
-70        android:testOnly="true"
-71        android:theme="@style/AppTheme"
-71-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:28:9-40
-72        android:usesCleartextTraffic="true" >
-72-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:29:9-44
-73        <activity
-73-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:31:9-33:63
-74            android:name="com.newmovies2020.streamingmoviehd.WebViewActivity"
-74-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:31:19-84
-75            android:screenOrientation="landscape"
-75-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:32:13-50
-76            android:theme="@style/FullscreenTheme" />
-76-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:33:13-51
-77
-78        <meta-data
-78-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:35:9-37:70
-79            android:name="com.google.android.gms.ads.APPLICATION_ID"
-79-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:36:13-69
-80            android:value="ca-app-pub-8804184340526788~7833821786" />
-80-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:37:13-67
-81        <meta-data
-81-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:38:9-40:39
-82            android:name="com.onesignal.NotificationOpened.DEFAULT"
-82-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:39:13-68
-83            android:value="DISABLE" />
-83-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:40:13-36
-84        <meta-data
-84-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:41:9-43:97
-85            android:name="com.google.android.gms.cast.framework.OPTIONS_PROVIDER_CLASS_NAME"
-85-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:42:13-93
-86            android:value="com.google.android.exoplayer2.ext.cast.DefaultCastOptionsProvider" />
-86-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:43:13-94
-87
-88        <activity
-88-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:45:9-48:53
-89            android:name="com.newmovies2020.streamingmoviehd.TermsActivity"
-89-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:46:13-76
-90            android:screenOrientation="portrait"
-90-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:47:13-49
-91            android:theme="@style/AppTheme.Nobar" />
-91-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:48:13-50
+23-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:19:5-81
+23-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:19:22-78
+24    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+24-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:20:5-79
+24-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:20:22-76
+25    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+25-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:21:5-76
+25-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:21:22-73
+26    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+26-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:22:5-76
+26-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:22:22-73
+27
+28    <!-- Create a unique permission for your app and use it so only your app can receive your OneSignal messages. -->
+29    <permission
+29-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:7:5-9:47
+30        android:name="com.newmovies2020.streamingmoviehd.permission.C2D_MESSAGE"
+30-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:8:9-63
+31        android:protectionLevel="signature" />
+31-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:9:9-44
+32
+33    <uses-permission android:name="com.newmovies2020.streamingmoviehd.permission.C2D_MESSAGE" />
+33-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:11:5-79
+33-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:11:22-76
+34    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> <!-- Required, makes sure notifications are delivered on time. -->
+34-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:17:5-82
+34-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:17:22-79
+35    <uses-permission android:name="android.permission.WAKE_LOCK" />
+35-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:18:5-68
+35-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:18:22-65
+36    <!--
+37 Required so the device vibrates on receiving a push notification.
+38         Vibration settings of the device still apply.
+39    -->
+40    <uses-permission android:name="android.permission.VIBRATE" />
+40-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:23:5-66
+40-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:23:22-63
+41    <!--
+42 Use to restore notifications the user hasn't interacted with.
+43         They could be missed notifications if the user reboots their device if this isn't in place.
+44    -->
+45    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> <!-- START: ShortcutBadger -->
+45-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:29:5-81
+45-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:29:22-78
+46    <!-- Samsung -->
+47    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+47-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:31:5-86
+47-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:31:22-83
+48    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- HTC -->
+48-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:32:5-87
+48-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:32:22-84
+49    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+49-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:33:5-81
+49-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:33:22-78
+50    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- Sony -->
+50-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:34:5-83
+50-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:34:22-80
+51    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+51-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:35:5-88
+51-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:35:22-85
+52    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- Apex -->
+52-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:36:5-92
+52-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:36:22-89
+53    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- Solid -->
+53-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:37:5-84
+53-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:37:22-81
+54    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- Huawei -->
+54-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:38:5-83
+54-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:38:22-80
+55    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+55-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:39:5-91
+55-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:39:22-88
+56    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+56-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:40:5-92
+56-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:40:22-89
+57    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- ZUK -->
+57-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:41:5-93
+57-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:41:22-90
+58    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- OPPO -->
+58-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:42:5-73
+58-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:42:22-70
+59    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+59-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:43:5-82
+59-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:43:22-79
+60    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- EvMe -->
+60-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:44:5-83
+60-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:44:22-80
+61    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+61-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:45:5-88
+61-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:45:22-85
+62    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+62-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:46:5-89
+62-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:46:22-86
+63    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+63-->[com.startapp:inapp-sdk:4.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\acab0fb87d5b087532e22ab49949cef3\jetified-inapp-sdk-4.3.0\AndroidManifest.xml:15:5-110
+63-->[com.startapp:inapp-sdk:4.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\acab0fb87d5b087532e22ab49949cef3\jetified-inapp-sdk-4.3.0\AndroidManifest.xml:15:22-107
+64
+65    <application
+65-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:25:5-117:19
+66        android:name="com.newmovies2020.streamingmoviehd.newmovies2020_utl.MyAppClass"
+66-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:26:9-87
+67        android:allowBackup="true"
+67-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:27:9-35
+68        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+68-->[androidx.core:core:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\e91594602c73eba9f0c6fb1745d43dba\core-1.1.0\AndroidManifest.xml:24:18-86
+69        android:debuggable="true"
+70        android:hardwareAccelerated="true"
+70-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:34:9-43
+71        android:icon="@mipmap/ic_launcher"
+71-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:28:9-43
+72        android:label="@string/app_name"
+72-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:29:9-41
+73        android:roundIcon="@mipmap/ic_launcher_round"
+73-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:30:9-54
+74        android:supportsRtl="true"
+74-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:31:9-35
+75        android:theme="@style/AppTheme"
+75-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:32:9-40
+76        android:usesCleartextTraffic="true" >
+76-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:33:9-44
+77        <activity
+77-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:36:9-38:63
+78            android:name="com.newmovies2020.streamingmoviehd.WebViewActivity"
+78-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:36:19-84
+79            android:screenOrientation="landscape"
+79-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:37:13-50
+80            android:theme="@style/FullscreenTheme" />
+80-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:38:13-51
+81
+82        <meta-data
+82-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:40:9-42:70
+83            android:name="com.google.android.gms.ads.APPLICATION_ID"
+83-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:41:13-69
+84            android:value="ca-app-pub-8804184340526788~7833821786" />
+84-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:42:13-67
+85        <meta-data
+85-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:43:9-45:39
+86            android:name="com.onesignal.NotificationOpened.DEFAULT"
+86-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:44:13-68
+87            android:value="DISABLE" />
+87-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:45:13-36
+88        <meta-data
+88-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:46:9-48:97
+89            android:name="com.google.android.gms.cast.framework.OPTIONS_PROVIDER_CLASS_NAME"
+89-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:47:13-93
+90            android:value="com.google.android.exoplayer2.ext.cast.DefaultCastOptionsProvider" />
+90-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:48:13-94
+91
 92        <activity
-92-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:49:9-53:59
-93            android:name="com.newmovies2020.streamingmoviehd.ReplyActivity"
-93-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:50:13-76
-94            android:label="@string/title_activity_reply"
-94-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:51:13-57
-95            android:screenOrientation="portrait"
-95-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:52:13-49
-96            android:theme="@style/AppTheme.NoActionBar" />
-96-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:53:13-56
-97        <activity
-97-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:54:9-57:53
-98            android:name="com.newmovies2020.streamingmoviehd.ProfileActivity"
-98-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:55:13-78
+92-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:50:9-53:53
+93            android:name="com.newmovies2020.streamingmoviehd.TermsActivity"
+93-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:51:13-76
+94            android:screenOrientation="portrait"
+94-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:52:13-49
+95            android:theme="@style/AppTheme.Nobar" />
+95-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:53:13-50
+96        <activity
+96-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:54:9-58:59
+97            android:name="com.newmovies2020.streamingmoviehd.ReplyActivity"
+97-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:55:13-76
+98            android:label="@string/title_activity_reply"
+98-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:56:13-57
 99            android:screenOrientation="portrait"
-99-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:56:13-49
-100            android:theme="@style/AppTheme.Nobar" />
-100-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:57:13-50
+99-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:57:13-49
+100            android:theme="@style/AppTheme.NoActionBar" />
+100-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:58:13-56
 101        <activity
-101-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:58:9-61:53
-102            android:name="com.newmovies2020.streamingmoviehd.PassResetActivity"
-102-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:59:13-80
+101-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:59:9-62:53
+102            android:name="com.newmovies2020.streamingmoviehd.ProfileActivity"
+102-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:60:13-78
 103            android:screenOrientation="portrait"
-103-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:60:13-49
+103-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:61:13-49
 104            android:theme="@style/AppTheme.Nobar" />
-104-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:61:13-50
+104-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:62:13-50
 105        <activity
-105-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:62:9-65:53
-106            android:name="com.newmovies2020.streamingmoviehd.SearchActivity"
-106-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:63:13-77
+105-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:63:9-66:53
+106            android:name="com.newmovies2020.streamingmoviehd.PassResetActivity"
+106-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:64:13-80
 107            android:screenOrientation="portrait"
-107-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:64:13-49
+107-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:65:13-49
 108            android:theme="@style/AppTheme.Nobar" />
-108-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:65:13-50
+108-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:66:13-50
 109        <activity
-109-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:66:9-69:53
-110            android:name="com.newmovies2020.streamingmoviehd.SignUpActivity"
-110-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:67:13-77
+109-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:67:9-70:53
+110            android:name="com.newmovies2020.streamingmoviehd.SearchActivity"
+110-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:68:13-77
 111            android:screenOrientation="portrait"
-111-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:68:13-49
+111-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:69:13-49
 112            android:theme="@style/AppTheme.Nobar" />
-112-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:69:13-50
+112-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:70:13-50
 113        <activity
-113-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:70:9-73:53
-114            android:name="com.newmovies2020.streamingmoviehd.LoginActivity"
-114-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:71:13-76
+113-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:71:9-74:53
+114            android:name="com.newmovies2020.streamingmoviehd.SignUpActivity"
+114-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:72:13-77
 115            android:screenOrientation="portrait"
-115-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:72:13-49
+115-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:73:13-49
 116            android:theme="@style/AppTheme.Nobar" />
-116-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:73:13-50
+116-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:74:13-50
 117        <activity
-117-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:74:9-78:59
-118            android:name="com.newmovies2020.streamingmoviehd.DetailsActivity"
-118-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:75:13-78
-119            android:configChanges="screenLayout|screenSize|orientation"
-119-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:76:13-72
-120            android:label="@string/title_activity_details"
-120-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:77:13-59
-121            android:theme="@style/AppTheme.NoActionBar" /> <!-- android:configChanges="screenLayout|screenSize|orientation" -->
-121-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:78:13-56
-122        <activity
-122-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:79:9-83:55
-123            android:name="com.newmovies2020.streamingmoviehd.MainActivity"
-123-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:80:13-75
-124            android:screenOrientation="portrait"
-124-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:81:13-49
-125            android:theme="@style/AppTheme.Nobar"
-125-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:82:13-50
-126            android:windowSoftInputMode="adjustPan" />
-126-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:83:13-52
-127        <activity
-127-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:84:9-86:53
-128            android:name="com.newmovies2020.streamingmoviehd.SettingsActivity"
-128-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:85:13-79
-129            android:theme="@style/AppTheme.Nobar" />
-129-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:86:13-50
-130        <activity
-130-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:87:9-97:20
-131            android:name="com.newmovies2020.streamingmoviehd.SplashscreenActivity"
-131-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:88:13-83
-132            android:configChanges="orientation|keyboardHidden|screenSize"
-132-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:89:13-74
-133            android:screenOrientation="portrait"
-133-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:90:13-49
-134            android:theme="@style/FullscreenTheme" >
-134-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:91:13-51
-135            <intent-filter>
-135-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:92:13-96:29
-136                <action android:name="android.intent.action.MAIN" />
-136-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:93:17-69
-136-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:93:25-66
-137
-138                <category android:name="android.intent.category.LAUNCHER" />
-138-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:95:17-77
-138-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:95:27-74
-139            </intent-filter>
-140        </activity>
-141        <activity
-141-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:98:9-102:59
-142            android:name="com.newmovies2020.streamingmoviehd.ItemMovieActivity"
-142-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:99:13-80
-143            android:label="@string/title_activity_item_show"
-143-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:100:13-61
-144            android:screenOrientation="portrait"
-144-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:101:13-49
-145            android:theme="@style/AppTheme.NoActionBar" />
-145-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:102:13-56
-146        <activity
-146-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:103:9-106:53
-147            android:name="com.newmovies2020.streamingmoviehd.ItemTVActivity"
-147-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:104:13-77
+117-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:75:9-78:53
+118            android:name="com.newmovies2020.streamingmoviehd.LoginActivity"
+118-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:76:13-76
+119            android:screenOrientation="portrait"
+119-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:77:13-49
+120            android:theme="@style/AppTheme.Nobar" />
+120-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:78:13-50
+121        <activity
+121-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:79:9-83:59
+122            android:name="com.newmovies2020.streamingmoviehd.DetailsActivity"
+122-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:80:13-78
+123            android:configChanges="screenLayout|screenSize|orientation"
+123-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:81:13-72
+124            android:label="@string/title_activity_details"
+124-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:82:13-59
+125            android:theme="@style/AppTheme.NoActionBar" /> <!-- android:configChanges="screenLayout|screenSize|orientation" -->
+125-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:83:13-56
+126        <activity
+126-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:84:9-88:55
+127            android:name="com.newmovies2020.streamingmoviehd.MainActivity"
+127-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:85:13-75
+128            android:screenOrientation="portrait"
+128-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:86:13-49
+129            android:theme="@style/AppTheme.Nobar"
+129-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:87:13-50
+130            android:windowSoftInputMode="adjustPan" />
+130-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:88:13-52
+131        <activity
+131-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:89:9-91:53
+132            android:name="com.newmovies2020.streamingmoviehd.SettingsActivity"
+132-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:90:13-79
+133            android:theme="@style/AppTheme.Nobar" />
+133-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:91:13-50
+134        <activity
+134-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:92:9-102:20
+135            android:name="com.newmovies2020.streamingmoviehd.SplashscreenActivity"
+135-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:93:13-83
+136            android:configChanges="orientation|keyboardHidden|screenSize"
+136-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:94:13-74
+137            android:screenOrientation="portrait"
+137-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:95:13-49
+138            android:theme="@style/FullscreenTheme" >
+138-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:96:13-51
+139            <intent-filter>
+139-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:97:13-101:29
+140                <action android:name="android.intent.action.MAIN" />
+140-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:98:17-69
+140-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:98:25-66
+141
+142                <category android:name="android.intent.category.LAUNCHER" />
+142-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:100:17-77
+142-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:100:27-74
+143            </intent-filter>
+144        </activity>
+145        <activity
+145-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:103:9-107:59
+146            android:name="com.newmovies2020.streamingmoviehd.ItemMovieActivity"
+146-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:104:13-80
+147            android:label="@string/title_activity_item_show"
+147-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:105:13-61
 148            android:screenOrientation="portrait"
-148-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:105:13-49
-149            android:theme="@style/AppTheme.Nobar" />
-149-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:106:13-50
+148-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:106:13-49
+149            android:theme="@style/AppTheme.NoActionBar" />
+149-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:107:13-56
 150        <activity
-150-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:107:9-110:53
-151            android:name="com.newmovies2020.streamingmoviehd.ItemSeriesActivity"
-151-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:108:13-81
+150-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:108:9-111:53
+151            android:name="com.newmovies2020.streamingmoviehd.ItemTVActivity"
+151-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:109:13-77
 152            android:screenOrientation="portrait"
-152-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:109:13-49
+152-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:110:13-49
 153            android:theme="@style/AppTheme.Nobar" />
-153-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:110:13-50
-154        <activity android:name="com.newmovies2020.streamingmoviehd.UpdateActivity" />
-154-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:111:9-85
-154-->D:\PRIVATE\newhdmov\app\src\main\AndroidManifest.xml:111:19-83
-155
-156        <receiver
-156-->[com.google.android.gms:play-services-cast-framework:15.0.1] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\a8d69780bec83dd22df18d9a424e9137\jetified-play-services-cast-framework-15.0.1\AndroidManifest.xml:8:9-10:40
-157            android:name="com.google.android.gms.cast.framework.media.MediaIntentReceiver"
-157-->[com.google.android.gms:play-services-cast-framework:15.0.1] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\a8d69780bec83dd22df18d9a424e9137\jetified-play-services-cast-framework-15.0.1\AndroidManifest.xml:9:13-91
-158            android:exported="false" />
-158-->[com.google.android.gms:play-services-cast-framework:15.0.1] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\a8d69780bec83dd22df18d9a424e9137\jetified-play-services-cast-framework-15.0.1\AndroidManifest.xml:10:13-37
+153-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:111:13-50
+154        <activity
+154-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:112:9-115:53
+155            android:name="com.newmovies2020.streamingmoviehd.ItemSeriesActivity"
+155-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:113:13-81
+156            android:screenOrientation="portrait"
+156-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:114:13-49
+157            android:theme="@style/AppTheme.Nobar" />
+157-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:115:13-50
+158        <activity android:name="com.newmovies2020.streamingmoviehd.UpdateActivity" />
+158-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:116:9-85
+158-->C:\Users\admin\StudioProjects\hdmovievera\app\src\main\AndroidManifest.xml:116:19-83
 159
-160        <service android:name="com.google.android.gms.cast.framework.media.MediaNotificationService" />
-160-->[com.google.android.gms:play-services-cast-framework:15.0.1] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\a8d69780bec83dd22df18d9a424e9137\jetified-play-services-cast-framework-15.0.1\AndroidManifest.xml:12:9-104
-160-->[com.google.android.gms:play-services-cast-framework:15.0.1] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\a8d69780bec83dd22df18d9a424e9137\jetified-play-services-cast-framework-15.0.1\AndroidManifest.xml:12:18-101
-161        <service android:name="com.google.android.gms.cast.framework.ReconnectionService" />
-161-->[com.google.android.gms:play-services-cast-framework:15.0.1] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\a8d69780bec83dd22df18d9a424e9137\jetified-play-services-cast-framework-15.0.1\AndroidManifest.xml:13:9-93
-161-->[com.google.android.gms:play-services-cast-framework:15.0.1] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\a8d69780bec83dd22df18d9a424e9137\jetified-play-services-cast-framework-15.0.1\AndroidManifest.xml:13:18-90
-162
-163        <meta-data
-163-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:49:9-51:51
-164            android:name="onesignal_app_id"
-164-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:50:13-44
-165            android:value="73a00332-4461-475b-9338-f632bd3ea6dd" /> <!-- Deprecated - Pulled from OneSignal dashboard. -->
-165-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:51:13-48
-166        <meta-data
-166-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:53:9-55:70
-167            android:name="onesignal_google_project_number"
-167-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:54:13-59
-168            android:value="str:REMOTE" />
-168-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:55:13-67
-169
-170        <receiver
-170-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:57:9-67:20
-171            android:name="com.onesignal.GcmBroadcastReceiver"
-171-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:58:13-62
-172            android:permission="com.google.android.c2dm.permission.SEND" >
-172-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:59:13-73
+160        <receiver
+160-->[com.google.android.gms:play-services-cast-framework:15.0.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\06a34d440d7d7b03e6ed5597db11dfb4\jetified-play-services-cast-framework-15.0.1\AndroidManifest.xml:8:9-10:40
+161            android:name="com.google.android.gms.cast.framework.media.MediaIntentReceiver"
+161-->[com.google.android.gms:play-services-cast-framework:15.0.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\06a34d440d7d7b03e6ed5597db11dfb4\jetified-play-services-cast-framework-15.0.1\AndroidManifest.xml:9:13-91
+162            android:exported="false" />
+162-->[com.google.android.gms:play-services-cast-framework:15.0.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\06a34d440d7d7b03e6ed5597db11dfb4\jetified-play-services-cast-framework-15.0.1\AndroidManifest.xml:10:13-37
+163
+164        <service android:name="com.google.android.gms.cast.framework.media.MediaNotificationService" />
+164-->[com.google.android.gms:play-services-cast-framework:15.0.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\06a34d440d7d7b03e6ed5597db11dfb4\jetified-play-services-cast-framework-15.0.1\AndroidManifest.xml:12:9-104
+164-->[com.google.android.gms:play-services-cast-framework:15.0.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\06a34d440d7d7b03e6ed5597db11dfb4\jetified-play-services-cast-framework-15.0.1\AndroidManifest.xml:12:18-101
+165        <service android:name="com.google.android.gms.cast.framework.ReconnectionService" />
+165-->[com.google.android.gms:play-services-cast-framework:15.0.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\06a34d440d7d7b03e6ed5597db11dfb4\jetified-play-services-cast-framework-15.0.1\AndroidManifest.xml:13:9-93
+165-->[com.google.android.gms:play-services-cast-framework:15.0.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\06a34d440d7d7b03e6ed5597db11dfb4\jetified-play-services-cast-framework-15.0.1\AndroidManifest.xml:13:18-90
+166
+167        <meta-data
+167-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:49:9-51:51
+168            android:name="onesignal_app_id"
+168-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:50:13-44
+169            android:value="73a00332-4461-475b-9338-f632bd3ea6dd" /> <!-- Deprecated - Pulled from OneSignal dashboard. -->
+169-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:51:13-48
+170        <meta-data
+170-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:53:9-55:70
+171            android:name="onesignal_google_project_number"
+171-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:54:13-59
+172            android:value="str:REMOTE" />
+172-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:55:13-67
 173
-174            <!-- High priority so OneSignal payloads can be filtered from other GCM receivers if filterOtherGCMReceivers is enabled. -->
-175            <intent-filter android:priority="999" >
-175-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:62:13-66:29
-175-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:62:28-50
-176                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-176-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:63:17-81
-176-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:63:25-78
+174        <receiver
+174-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:57:9-67:20
+175            android:name="com.onesignal.GcmBroadcastReceiver"
+175-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:58:13-62
+176            android:permission="com.google.android.c2dm.permission.SEND" >
+176-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:59:13-73
 177
-178                <category android:name="com.newmovies2020.streamingmoviehd" />
-178-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:65:17-61
-178-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:65:27-58
-179            </intent-filter>
-180        </receiver>
-181        <receiver android:name="com.onesignal.NotificationOpenedReceiver" />
-181-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:68:9-77
-181-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:68:19-74
-182
-183        <service android:name="com.onesignal.GcmIntentService" />
-183-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:70:9-66
-183-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:70:18-63
-184        <service
-184-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:71:9-73:72
-185            android:name="com.onesignal.GcmIntentJobService"
-185-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:72:13-61
-186            android:permission="android.permission.BIND_JOB_SERVICE" />
-186-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:73:13-69
-187        <service
-187-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:74:9-76:72
-188            android:name="com.onesignal.RestoreJobService"
-188-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:75:13-59
-189            android:permission="android.permission.BIND_JOB_SERVICE" />
-189-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:76:13-69
-190        <service
-190-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:77:9-79:72
-191            android:name="com.onesignal.RestoreKickoffJobService"
-191-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:78:13-66
-192            android:permission="android.permission.BIND_JOB_SERVICE" />
-192-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:79:13-69
-193        <service
-193-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:80:9-82:43
-194            android:name="com.onesignal.SyncService"
-194-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:81:13-53
-195            android:stopWithTask="true" />
-195-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:82:13-40
-196        <service
-196-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:83:9-85:72
-197            android:name="com.onesignal.SyncJobService"
-197-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:84:13-56
-198            android:permission="android.permission.BIND_JOB_SERVICE" />
-198-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:85:13-69
-199
-200        <activity
-200-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:87:9-89:75
-201            android:name="com.onesignal.PermissionsActivity"
-201-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:88:13-61
-202            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-202-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:89:13-72
+178            <!-- High priority so OneSignal payloads can be filtered from other GCM receivers if filterOtherGCMReceivers is enabled. -->
+179            <intent-filter android:priority="999" >
+179-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:62:13-66:29
+179-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:62:28-50
+180                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+180-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:63:17-81
+180-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:63:25-78
+181
+182                <category android:name="com.newmovies2020.streamingmoviehd" />
+182-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:65:17-61
+182-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:65:27-58
+183            </intent-filter>
+184        </receiver>
+185        <receiver android:name="com.onesignal.NotificationOpenedReceiver" />
+185-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:68:9-77
+185-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:68:19-74
+186
+187        <service android:name="com.onesignal.GcmIntentService" />
+187-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:70:9-66
+187-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:70:18-63
+188        <service
+188-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:71:9-73:72
+189            android:name="com.onesignal.GcmIntentJobService"
+189-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:72:13-61
+190            android:permission="android.permission.BIND_JOB_SERVICE" />
+190-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:73:13-69
+191        <service
+191-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:74:9-76:72
+192            android:name="com.onesignal.RestoreJobService"
+192-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:75:13-59
+193            android:permission="android.permission.BIND_JOB_SERVICE" />
+193-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:76:13-69
+194        <service
+194-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:77:9-79:72
+195            android:name="com.onesignal.RestoreKickoffJobService"
+195-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:78:13-66
+196            android:permission="android.permission.BIND_JOB_SERVICE" />
+196-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:79:13-69
+197        <service
+197-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:80:9-82:43
+198            android:name="com.onesignal.SyncService"
+198-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:81:13-53
+199            android:stopWithTask="true" />
+199-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:82:13-40
+200        <service
+200-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:83:9-85:72
+201            android:name="com.onesignal.SyncJobService"
+201-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:84:13-56
+202            android:permission="android.permission.BIND_JOB_SERVICE" />
+202-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:85:13-69
 203
-204        <service android:name="com.onesignal.NotificationRestoreService" />
-204-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:91:9-76
-204-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:91:18-73
-205
-206        <receiver android:name="com.onesignal.BootUpReceiver" >
-206-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:93:9-98:20
-206-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:93:19-62
-207            <intent-filter>
-207-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:94:13-97:29
-208                <action android:name="android.intent.action.BOOT_COMPLETED" />
-208-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:95:17-79
-208-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:95:25-76
-209                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
-209-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:96:17-82
-209-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:96:25-79
-210            </intent-filter>
-211        </receiver>
-212        <receiver android:name="com.onesignal.UpgradeReceiver" >
-212-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:99:9-103:20
-212-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:99:19-63
-213            <intent-filter>
-213-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:100:13-102:29
-214                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
-214-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:101:17-84
-214-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:101:25-81
-215            </intent-filter>
-216        </receiver>
-217
-218        <activity
-218-->[com.facebook.android:audience-network-sdk:5.6.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\7872cd9ef5c84f98b2e85d51128e4bcf\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:15:9-19:75
-219            android:name="com.facebook.ads.AudienceNetworkActivity"
-219-->[com.facebook.android:audience-network-sdk:5.6.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\7872cd9ef5c84f98b2e85d51128e4bcf\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:16:13-68
-220            android:configChanges="keyboardHidden|orientation|screenSize"
-220-->[com.facebook.android:audience-network-sdk:5.6.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\7872cd9ef5c84f98b2e85d51128e4bcf\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:17:13-74
-221            android:exported="false"
-221-->[com.facebook.android:audience-network-sdk:5.6.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\7872cd9ef5c84f98b2e85d51128e4bcf\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:18:13-37
-222            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-222-->[com.facebook.android:audience-network-sdk:5.6.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\7872cd9ef5c84f98b2e85d51128e4bcf\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:19:13-72
-223        <activity
-223-->[com.facebook.android:audience-network-sdk:5.6.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\7872cd9ef5c84f98b2e85d51128e4bcf\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:20:9-25:75
-224            android:name="com.facebook.ads.internal.ipc.RemoteANActivity"
-224-->[com.facebook.android:audience-network-sdk:5.6.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\7872cd9ef5c84f98b2e85d51128e4bcf\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:21:13-74
-225            android:configChanges="keyboardHidden|orientation|screenSize"
-225-->[com.facebook.android:audience-network-sdk:5.6.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\7872cd9ef5c84f98b2e85d51128e4bcf\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:22:13-74
-226            android:exported="false"
-226-->[com.facebook.android:audience-network-sdk:5.6.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\7872cd9ef5c84f98b2e85d51128e4bcf\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:23:13-37
-227            android:process=":adnw"
-227-->[com.facebook.android:audience-network-sdk:5.6.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\7872cd9ef5c84f98b2e85d51128e4bcf\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:24:13-36
-228            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-228-->[com.facebook.android:audience-network-sdk:5.6.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\7872cd9ef5c84f98b2e85d51128e4bcf\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:25:13-72
-229
-230        <service
-230-->[com.facebook.android:audience-network-sdk:5.6.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\7872cd9ef5c84f98b2e85d51128e4bcf\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:27:9-29:40
-231            android:name="com.facebook.ads.internal.ipc.AdsProcessPriorityService"
-231-->[com.facebook.android:audience-network-sdk:5.6.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\7872cd9ef5c84f98b2e85d51128e4bcf\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:28:13-83
-232            android:exported="false" />
-232-->[com.facebook.android:audience-network-sdk:5.6.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\7872cd9ef5c84f98b2e85d51128e4bcf\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:29:13-37
-233        <service
-233-->[com.facebook.android:audience-network-sdk:5.6.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\7872cd9ef5c84f98b2e85d51128e4bcf\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:30:9-33:39
-234            android:name="com.facebook.ads.internal.ipc.AdsMessengerService"
-234-->[com.facebook.android:audience-network-sdk:5.6.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\7872cd9ef5c84f98b2e85d51128e4bcf\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:31:13-77
+204        <activity
+204-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:87:9-89:75
+205            android:name="com.onesignal.PermissionsActivity"
+205-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:88:13-61
+206            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+206-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:89:13-72
+207
+208        <service android:name="com.onesignal.NotificationRestoreService" />
+208-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:91:9-76
+208-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:91:18-73
+209
+210        <receiver android:name="com.onesignal.BootUpReceiver" >
+210-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:93:9-98:20
+210-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:93:19-62
+211            <intent-filter>
+211-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:94:13-97:29
+212                <action android:name="android.intent.action.BOOT_COMPLETED" />
+212-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:95:17-79
+212-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:95:25-76
+213                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+213-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:96:17-82
+213-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:96:25-79
+214            </intent-filter>
+215        </receiver>
+216        <receiver android:name="com.onesignal.UpgradeReceiver" >
+216-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:99:9-103:20
+216-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:99:19-63
+217            <intent-filter>
+217-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:100:13-102:29
+218                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+218-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:101:17-84
+218-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:101:25-81
+219            </intent-filter>
+220        </receiver>
+221
+222        <provider
+222-->[com.squareup.picasso:picasso:2.71828] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\3877f82dd3a2638b2061719c09dfd87e\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+223            android:name="com.squareup.picasso.PicassoProvider"
+223-->[com.squareup.picasso:picasso:2.71828] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\3877f82dd3a2638b2061719c09dfd87e\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+224            android:authorities="com.newmovies2020.streamingmoviehd.com.squareup.picasso"
+224-->[com.squareup.picasso:picasso:2.71828] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\3877f82dd3a2638b2061719c09dfd87e\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+225            android:exported="false" />
+225-->[com.squareup.picasso:picasso:2.71828] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\3877f82dd3a2638b2061719c09dfd87e\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+226
+227        <activity
+227-->[com.facebook.android:audience-network-sdk:5.6.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\2b54c7a97096bee8113080e78965f02d\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:15:9-19:75
+228            android:name="com.facebook.ads.AudienceNetworkActivity"
+228-->[com.facebook.android:audience-network-sdk:5.6.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\2b54c7a97096bee8113080e78965f02d\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:16:13-68
+229            android:configChanges="keyboardHidden|orientation|screenSize"
+229-->[com.facebook.android:audience-network-sdk:5.6.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\2b54c7a97096bee8113080e78965f02d\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:17:13-74
+230            android:exported="false"
+230-->[com.facebook.android:audience-network-sdk:5.6.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\2b54c7a97096bee8113080e78965f02d\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:18:13-37
+231            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+231-->[com.facebook.android:audience-network-sdk:5.6.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\2b54c7a97096bee8113080e78965f02d\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:19:13-72
+232        <activity
+232-->[com.facebook.android:audience-network-sdk:5.6.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\2b54c7a97096bee8113080e78965f02d\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:20:9-25:75
+233            android:name="com.facebook.ads.internal.ipc.RemoteANActivity"
+233-->[com.facebook.android:audience-network-sdk:5.6.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\2b54c7a97096bee8113080e78965f02d\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:21:13-74
+234            android:configChanges="keyboardHidden|orientation|screenSize"
+234-->[com.facebook.android:audience-network-sdk:5.6.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\2b54c7a97096bee8113080e78965f02d\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:22:13-74
 235            android:exported="false"
-235-->[com.facebook.android:audience-network-sdk:5.6.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\7872cd9ef5c84f98b2e85d51128e4bcf\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:32:13-37
-236            android:process=":adnw" />
-236-->[com.facebook.android:audience-network-sdk:5.6.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\7872cd9ef5c84f98b2e85d51128e4bcf\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:33:13-36
-237
-238        <provider
-238-->[com.facebook.android:audience-network-sdk:5.6.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\7872cd9ef5c84f98b2e85d51128e4bcf\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:35:9-38:40
-239            android:name="com.facebook.ads.AudienceNetworkContentProvider"
-239-->[com.facebook.android:audience-network-sdk:5.6.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\7872cd9ef5c84f98b2e85d51128e4bcf\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:36:13-75
-240            android:authorities="com.newmovies2020.streamingmoviehd.AudienceNetworkContentProvider"
-240-->[com.facebook.android:audience-network-sdk:5.6.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\7872cd9ef5c84f98b2e85d51128e4bcf\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:37:13-82
+235-->[com.facebook.android:audience-network-sdk:5.6.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\2b54c7a97096bee8113080e78965f02d\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:23:13-37
+236            android:process=":adnw"
+236-->[com.facebook.android:audience-network-sdk:5.6.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\2b54c7a97096bee8113080e78965f02d\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:24:13-36
+237            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+237-->[com.facebook.android:audience-network-sdk:5.6.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\2b54c7a97096bee8113080e78965f02d\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:25:13-72
+238
+239        <service
+239-->[com.facebook.android:audience-network-sdk:5.6.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\2b54c7a97096bee8113080e78965f02d\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:27:9-29:40
+240            android:name="com.facebook.ads.internal.ipc.AdsProcessPriorityService"
+240-->[com.facebook.android:audience-network-sdk:5.6.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\2b54c7a97096bee8113080e78965f02d\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:28:13-83
 241            android:exported="false" />
-241-->[com.facebook.android:audience-network-sdk:5.6.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\7872cd9ef5c84f98b2e85d51128e4bcf\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:38:13-37
-242        <!--
-243             FirebaseMessagingService performs security checks at runtime,
-244             no need for explicit permissions despite exported="true"
-245        -->
-246        <service
-246-->[com.google.firebase:firebase-messaging:17.3.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\e1cd8e4944b43e859ad8e9eb725d3207\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:28:9-34:19
-247            android:name="com.google.firebase.messaging.FirebaseMessagingService"
-247-->[com.google.firebase:firebase-messaging:17.3.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\e1cd8e4944b43e859ad8e9eb725d3207\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:29:13-82
-248            android:exported="true" >
-248-->[com.google.firebase:firebase-messaging:17.3.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\e1cd8e4944b43e859ad8e9eb725d3207\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:30:13-36
-249            <intent-filter android:priority="-500" >
-249-->[com.google.firebase:firebase-messaging:17.3.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\e1cd8e4944b43e859ad8e9eb725d3207\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:31:13-33:29
-249-->[com.google.firebase:firebase-messaging:17.3.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\e1cd8e4944b43e859ad8e9eb725d3207\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:31:28-51
-250                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-250-->[com.google.firebase:firebase-messaging:17.3.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\e1cd8e4944b43e859ad8e9eb725d3207\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:32:17-78
-250-->[com.google.firebase:firebase-messaging:17.3.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\e1cd8e4944b43e859ad8e9eb725d3207\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:32:25-75
-251            </intent-filter>
-252        </service>
-253
-254        <receiver
-254-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\0ff497b4df1b0505c7021961a10dc4f5\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:29:9-33:20
-255            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-255-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\0ff497b4df1b0505c7021961a10dc4f5\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:30:13-85
-256            android:enabled="true"
-256-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\0ff497b4df1b0505c7021961a10dc4f5\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:31:13-35
-257            android:exported="false" >
-257-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\0ff497b4df1b0505c7021961a10dc4f5\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:32:13-37
-258        </receiver>
-259        <receiver
-259-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\0ff497b4df1b0505c7021961a10dc4f5\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:34:9-42:20
-260            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
-260-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\0ff497b4df1b0505c7021961a10dc4f5\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:35:13-100
-261            android:enabled="true"
-261-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\0ff497b4df1b0505c7021961a10dc4f5\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:36:13-35
-262            android:exported="true"
-262-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\0ff497b4df1b0505c7021961a10dc4f5\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:37:13-36
-263            android:permission="android.permission.INSTALL_PACKAGES" >
-263-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\0ff497b4df1b0505c7021961a10dc4f5\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:38:13-69
-264            <intent-filter>
-264-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\0ff497b4df1b0505c7021961a10dc4f5\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:39:13-41:29
-265                <action android:name="com.android.vending.INSTALL_REFERRER" />
-265-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\0ff497b4df1b0505c7021961a10dc4f5\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:40:17-79
-265-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\0ff497b4df1b0505c7021961a10dc4f5\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:40:25-76
-266            </intent-filter>
-267        </receiver>
-268
-269        <service
-269-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\0ff497b4df1b0505c7021961a10dc4f5\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:44:9-47:40
-270            android:name="com.google.android.gms.measurement.AppMeasurementService"
-270-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\0ff497b4df1b0505c7021961a10dc4f5\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:45:13-84
-271            android:enabled="true"
-271-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\0ff497b4df1b0505c7021961a10dc4f5\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:46:13-35
-272            android:exported="false" />
-272-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\0ff497b4df1b0505c7021961a10dc4f5\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:47:13-37
-273        <service
-273-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\0ff497b4df1b0505c7021961a10dc4f5\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:48:9-52:72
-274            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-274-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\0ff497b4df1b0505c7021961a10dc4f5\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:49:13-87
-275            android:enabled="true"
-275-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\0ff497b4df1b0505c7021961a10dc4f5\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:50:13-35
-276            android:exported="false"
-276-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\0ff497b4df1b0505c7021961a10dc4f5\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:51:13-37
-277            android:permission="android.permission.BIND_JOB_SERVICE" />
-277-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\0ff497b4df1b0505c7021961a10dc4f5\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:52:13-69
-278        <service
-278-->[com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d9edcb4a7d26bebc2d80d0a142da10da\jetified-play-services-measurement-api-16.4.0\AndroidManifest.xml:27:9-33:19
-279            android:name="com.google.firebase.components.ComponentDiscoveryService"
-279-->[com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d9edcb4a7d26bebc2d80d0a142da10da\jetified-play-services-measurement-api-16.4.0\AndroidManifest.xml:28:13-84
-280            android:exported="false" >
-280-->[com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d9edcb4a7d26bebc2d80d0a142da10da\jetified-play-services-measurement-api-16.4.0\AndroidManifest.xml:29:13-37
-281            <meta-data
-281-->[com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d9edcb4a7d26bebc2d80d0a142da10da\jetified-play-services-measurement-api-16.4.0\AndroidManifest.xml:30:13-32:85
-282                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-282-->[com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d9edcb4a7d26bebc2d80d0a142da10da\jetified-play-services-measurement-api-16.4.0\AndroidManifest.xml:31:17-139
-283                android:value="com.google.firebase.components.ComponentRegistrar" />
-283-->[com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d9edcb4a7d26bebc2d80d0a142da10da\jetified-play-services-measurement-api-16.4.0\AndroidManifest.xml:32:17-82
-284            <meta-data
-284-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\aaa5b411f23eb285ac5b784df23f566c\jetified-firebase-iid-17.0.3\AndroidManifest.xml:32:13-34:85
-285                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
-285-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\aaa5b411f23eb285ac5b784df23f566c\jetified-firebase-iid-17.0.3\AndroidManifest.xml:33:17-96
-286                android:value="com.google.firebase.components.ComponentRegistrar" />
-286-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\aaa5b411f23eb285ac5b784df23f566c\jetified-firebase-iid-17.0.3\AndroidManifest.xml:34:17-82
-287        </service> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
-288        <activity
-288-->[com.google.android.gms:play-services-ads-lite:17.2.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\15365e7e4b146910de672c39ecf22e14\jetified-play-services-ads-lite-17.2.0\AndroidManifest.xml:29:9-33:64
-289            android:name="com.google.android.gms.ads.AdActivity"
-289-->[com.google.android.gms:play-services-ads-lite:17.2.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\15365e7e4b146910de672c39ecf22e14\jetified-play-services-ads-lite-17.2.0\AndroidManifest.xml:30:13-65
-290            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
-290-->[com.google.android.gms:play-services-ads-lite:17.2.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\15365e7e4b146910de672c39ecf22e14\jetified-play-services-ads-lite-17.2.0\AndroidManifest.xml:31:13-122
-291            android:exported="false"
-291-->[com.google.android.gms:play-services-ads-lite:17.2.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\15365e7e4b146910de672c39ecf22e14\jetified-play-services-ads-lite-17.2.0\AndroidManifest.xml:32:13-37
-292            android:theme="@android:style/Theme.Translucent" />
-292-->[com.google.android.gms:play-services-ads-lite:17.2.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\15365e7e4b146910de672c39ecf22e14\jetified-play-services-ads-lite-17.2.0\AndroidManifest.xml:33:13-61
-293
-294        <provider
-294-->[com.google.android.gms:play-services-ads-lite:17.2.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\15365e7e4b146910de672c39ecf22e14\jetified-play-services-ads-lite-17.2.0\AndroidManifest.xml:35:9-39:39
-295            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
-295-->[com.google.android.gms:play-services-ads-lite:17.2.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\15365e7e4b146910de672c39ecf22e14\jetified-play-services-ads-lite-17.2.0\AndroidManifest.xml:36:13-76
-296            android:authorities="com.newmovies2020.streamingmoviehd.mobileadsinitprovider"
-296-->[com.google.android.gms:play-services-ads-lite:17.2.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\15365e7e4b146910de672c39ecf22e14\jetified-play-services-ads-lite-17.2.0\AndroidManifest.xml:37:13-73
-297            android:exported="false"
-297-->[com.google.android.gms:play-services-ads-lite:17.2.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\15365e7e4b146910de672c39ecf22e14\jetified-play-services-ads-lite-17.2.0\AndroidManifest.xml:38:13-37
-298            android:initOrder="100" />
-298-->[com.google.android.gms:play-services-ads-lite:17.2.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\15365e7e4b146910de672c39ecf22e14\jetified-play-services-ads-lite-17.2.0\AndroidManifest.xml:39:13-36
-299
-300        <receiver
-300-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\aaa5b411f23eb285ac5b784df23f566c\jetified-firebase-iid-17.0.3\AndroidManifest.xml:37:9-44:20
-301            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-301-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\aaa5b411f23eb285ac5b784df23f566c\jetified-firebase-iid-17.0.3\AndroidManifest.xml:38:13-78
-302            android:exported="true"
-302-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\aaa5b411f23eb285ac5b784df23f566c\jetified-firebase-iid-17.0.3\AndroidManifest.xml:39:13-36
-303            android:permission="com.google.android.c2dm.permission.SEND" >
-303-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\aaa5b411f23eb285ac5b784df23f566c\jetified-firebase-iid-17.0.3\AndroidManifest.xml:40:13-73
-304            <intent-filter>
-304-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\aaa5b411f23eb285ac5b784df23f566c\jetified-firebase-iid-17.0.3\AndroidManifest.xml:41:13-43:29
-305                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-305-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:63:17-81
-305-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:63:25-78
-306            </intent-filter>
-307        </receiver>
-308        <!--
-309             FirebaseInstanceIdService performs security checks at runtime,
-310             no need for explicit permissions despite exported="true"
-311        -->
-312        <service
-312-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\aaa5b411f23eb285ac5b784df23f566c\jetified-firebase-iid-17.0.3\AndroidManifest.xml:50:9-56:19
-313            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
-313-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\aaa5b411f23eb285ac5b784df23f566c\jetified-firebase-iid-17.0.3\AndroidManifest.xml:51:13-77
-314            android:exported="true" >
-314-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\aaa5b411f23eb285ac5b784df23f566c\jetified-firebase-iid-17.0.3\AndroidManifest.xml:52:13-36
-315            <intent-filter android:priority="-500" >
-315-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\aaa5b411f23eb285ac5b784df23f566c\jetified-firebase-iid-17.0.3\AndroidManifest.xml:53:13-55:29
-315-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\aaa5b411f23eb285ac5b784df23f566c\jetified-firebase-iid-17.0.3\AndroidManifest.xml:53:28-51
-316                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
-316-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\aaa5b411f23eb285ac5b784df23f566c\jetified-firebase-iid-17.0.3\AndroidManifest.xml:54:17-80
-316-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\aaa5b411f23eb285ac5b784df23f566c\jetified-firebase-iid-17.0.3\AndroidManifest.xml:54:25-77
-317            </intent-filter>
-318        </service>
-319
-320        <provider
-320-->[com.google.firebase:firebase-common:16.0.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\cfa953f2d255c65b3041eb02bc5c5570\jetified-firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
-321            android:name="com.google.firebase.provider.FirebaseInitProvider"
-321-->[com.google.firebase:firebase-common:16.0.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\cfa953f2d255c65b3041eb02bc5c5570\jetified-firebase-common-16.0.3\AndroidManifest.xml:11:13-77
-322            android:authorities="com.newmovies2020.streamingmoviehd.firebaseinitprovider"
-322-->[com.google.firebase:firebase-common:16.0.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\cfa953f2d255c65b3041eb02bc5c5570\jetified-firebase-common-16.0.3\AndroidManifest.xml:12:13-72
-323            android:exported="false"
-323-->[com.google.firebase:firebase-common:16.0.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\cfa953f2d255c65b3041eb02bc5c5570\jetified-firebase-common-16.0.3\AndroidManifest.xml:13:13-37
-324            android:initOrder="100" />
-324-->[com.google.firebase:firebase-common:16.0.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\cfa953f2d255c65b3041eb02bc5c5570\jetified-firebase-common-16.0.3\AndroidManifest.xml:14:13-36
-325
-326        <activity
-326-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\1cf650bad80954577cfcecf166590454\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
-327            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-327-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\1cf650bad80954577cfcecf166590454\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
-328            android:exported="false"
-328-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\1cf650bad80954577cfcecf166590454\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
-329            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-329-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\1cf650bad80954577cfcecf166590454\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
-330
-331        <meta-data
-331-->[com.google.android.gms:play-services-basement:16.2.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\2a4ed8c9d7ae7c8a74296d3c5e696685\jetified-play-services-basement-16.2.0\AndroidManifest.xml:23:9-25:69
-332            android:name="com.google.android.gms.version"
-332-->[com.google.android.gms:play-services-basement:16.2.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\2a4ed8c9d7ae7c8a74296d3c5e696685\jetified-play-services-basement-16.2.0\AndroidManifest.xml:24:13-58
-333            android:value="@integer/google_play_services_version" />
-333-->[com.google.android.gms:play-services-basement:16.2.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\2a4ed8c9d7ae7c8a74296d3c5e696685\jetified-play-services-basement-16.2.0\AndroidManifest.xml:25:13-66
-334
-335        <provider
-335-->[com.squareup.picasso:picasso:2.71828] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\5384db101d1291955478bcd0a4dac809\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
-336            android:name="com.squareup.picasso.PicassoProvider"
-336-->[com.squareup.picasso:picasso:2.71828] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\5384db101d1291955478bcd0a4dac809\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
-337            android:authorities="com.newmovies2020.streamingmoviehd.com.squareup.picasso"
-337-->[com.squareup.picasso:picasso:2.71828] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\5384db101d1291955478bcd0a4dac809\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
-338            android:exported="false" />
-338-->[com.squareup.picasso:picasso:2.71828] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\5384db101d1291955478bcd0a4dac809\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
-339
-340        <activity
-340-->[com.startapp:inapp-sdk:4.3.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\2d8cbb622dbcfa708e01b820f87268d7\jetified-inapp-sdk-4.3.0\AndroidManifest.xml:18:9-20:52
-341            android:name="com.startapp.android.publish.ads.list3d.List3DActivity"
-341-->[com.startapp:inapp-sdk:4.3.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\2d8cbb622dbcfa708e01b820f87268d7\jetified-inapp-sdk-4.3.0\AndroidManifest.xml:19:13-82
-342            android:theme="@android:style/Theme" />
-342-->[com.startapp:inapp-sdk:4.3.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\2d8cbb622dbcfa708e01b820f87268d7\jetified-inapp-sdk-4.3.0\AndroidManifest.xml:20:13-49
-343        <activity
-343-->[com.startapp:inapp-sdk:4.3.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\2d8cbb622dbcfa708e01b820f87268d7\jetified-inapp-sdk-4.3.0\AndroidManifest.xml:21:9-24:64
-344            android:name="com.startapp.android.publish.adsCommon.activities.OverlayActivity"
-344-->[com.startapp:inapp-sdk:4.3.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\2d8cbb622dbcfa708e01b820f87268d7\jetified-inapp-sdk-4.3.0\AndroidManifest.xml:22:13-93
-345            android:configChanges="orientation|keyboardHidden|screenSize"
-345-->[com.startapp:inapp-sdk:4.3.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\2d8cbb622dbcfa708e01b820f87268d7\jetified-inapp-sdk-4.3.0\AndroidManifest.xml:23:13-74
-346            android:theme="@android:style/Theme.Translucent" />
-346-->[com.startapp:inapp-sdk:4.3.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\2d8cbb622dbcfa708e01b820f87268d7\jetified-inapp-sdk-4.3.0\AndroidManifest.xml:24:13-61
-347        <activity
-347-->[com.startapp:inapp-sdk:4.3.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\2d8cbb622dbcfa708e01b820f87268d7\jetified-inapp-sdk-4.3.0\AndroidManifest.xml:25:9-28:52
-348            android:name="com.startapp.android.publish.adsCommon.activities.FullScreenActivity"
-348-->[com.startapp:inapp-sdk:4.3.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\2d8cbb622dbcfa708e01b820f87268d7\jetified-inapp-sdk-4.3.0\AndroidManifest.xml:26:13-96
-349            android:configChanges="orientation|keyboardHidden|screenSize"
-349-->[com.startapp:inapp-sdk:4.3.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\2d8cbb622dbcfa708e01b820f87268d7\jetified-inapp-sdk-4.3.0\AndroidManifest.xml:27:13-74
-350            android:theme="@android:style/Theme" />
-350-->[com.startapp:inapp-sdk:4.3.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\2d8cbb622dbcfa708e01b820f87268d7\jetified-inapp-sdk-4.3.0\AndroidManifest.xml:28:13-49
-351
-352        <service android:name="com.startapp.android.publish.common.metaData.PeriodicMetaDataService" />
-352-->[com.startapp:inapp-sdk:4.3.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\2d8cbb622dbcfa708e01b820f87268d7\jetified-inapp-sdk-4.3.0\AndroidManifest.xml:30:9-104
-352-->[com.startapp:inapp-sdk:4.3.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\2d8cbb622dbcfa708e01b820f87268d7\jetified-inapp-sdk-4.3.0\AndroidManifest.xml:30:18-101
-353        <service android:name="com.startapp.android.publish.common.metaData.InfoEventService" />
-353-->[com.startapp:inapp-sdk:4.3.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\2d8cbb622dbcfa708e01b820f87268d7\jetified-inapp-sdk-4.3.0\AndroidManifest.xml:31:9-97
-353-->[com.startapp:inapp-sdk:4.3.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\2d8cbb622dbcfa708e01b820f87268d7\jetified-inapp-sdk-4.3.0\AndroidManifest.xml:31:18-94
-354        <service
-354-->[com.startapp:inapp-sdk:4.3.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\2d8cbb622dbcfa708e01b820f87268d7\jetified-inapp-sdk-4.3.0\AndroidManifest.xml:32:9-34:72
-355            android:name="com.startapp.android.publish.common.metaData.PeriodicJobService"
-355-->[com.startapp:inapp-sdk:4.3.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\2d8cbb622dbcfa708e01b820f87268d7\jetified-inapp-sdk-4.3.0\AndroidManifest.xml:33:13-91
-356            android:permission="android.permission.BIND_JOB_SERVICE" />
-356-->[com.startapp:inapp-sdk:4.3.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\2d8cbb622dbcfa708e01b820f87268d7\jetified-inapp-sdk-4.3.0\AndroidManifest.xml:34:13-69
+241-->[com.facebook.android:audience-network-sdk:5.6.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\2b54c7a97096bee8113080e78965f02d\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:29:13-37
+242        <service
+242-->[com.facebook.android:audience-network-sdk:5.6.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\2b54c7a97096bee8113080e78965f02d\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:30:9-33:39
+243            android:name="com.facebook.ads.internal.ipc.AdsMessengerService"
+243-->[com.facebook.android:audience-network-sdk:5.6.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\2b54c7a97096bee8113080e78965f02d\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:31:13-77
+244            android:exported="false"
+244-->[com.facebook.android:audience-network-sdk:5.6.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\2b54c7a97096bee8113080e78965f02d\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:32:13-37
+245            android:process=":adnw" />
+245-->[com.facebook.android:audience-network-sdk:5.6.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\2b54c7a97096bee8113080e78965f02d\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:33:13-36
+246
+247        <provider
+247-->[com.facebook.android:audience-network-sdk:5.6.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\2b54c7a97096bee8113080e78965f02d\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:35:9-38:40
+248            android:name="com.facebook.ads.AudienceNetworkContentProvider"
+248-->[com.facebook.android:audience-network-sdk:5.6.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\2b54c7a97096bee8113080e78965f02d\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:36:13-75
+249            android:authorities="com.newmovies2020.streamingmoviehd.AudienceNetworkContentProvider"
+249-->[com.facebook.android:audience-network-sdk:5.6.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\2b54c7a97096bee8113080e78965f02d\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:37:13-82
+250            android:exported="false" />
+250-->[com.facebook.android:audience-network-sdk:5.6.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\2b54c7a97096bee8113080e78965f02d\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:38:13-37
+251
+252        <activity
+252-->[com.startapp:inapp-sdk:4.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\acab0fb87d5b087532e22ab49949cef3\jetified-inapp-sdk-4.3.0\AndroidManifest.xml:18:9-20:52
+253            android:name="com.startapp.android.publish.ads.list3d.List3DActivity"
+253-->[com.startapp:inapp-sdk:4.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\acab0fb87d5b087532e22ab49949cef3\jetified-inapp-sdk-4.3.0\AndroidManifest.xml:19:13-82
+254            android:theme="@android:style/Theme" />
+254-->[com.startapp:inapp-sdk:4.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\acab0fb87d5b087532e22ab49949cef3\jetified-inapp-sdk-4.3.0\AndroidManifest.xml:20:13-49
+255        <activity
+255-->[com.startapp:inapp-sdk:4.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\acab0fb87d5b087532e22ab49949cef3\jetified-inapp-sdk-4.3.0\AndroidManifest.xml:21:9-24:64
+256            android:name="com.startapp.android.publish.adsCommon.activities.OverlayActivity"
+256-->[com.startapp:inapp-sdk:4.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\acab0fb87d5b087532e22ab49949cef3\jetified-inapp-sdk-4.3.0\AndroidManifest.xml:22:13-93
+257            android:configChanges="orientation|keyboardHidden|screenSize"
+257-->[com.startapp:inapp-sdk:4.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\acab0fb87d5b087532e22ab49949cef3\jetified-inapp-sdk-4.3.0\AndroidManifest.xml:23:13-74
+258            android:theme="@android:style/Theme.Translucent" />
+258-->[com.startapp:inapp-sdk:4.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\acab0fb87d5b087532e22ab49949cef3\jetified-inapp-sdk-4.3.0\AndroidManifest.xml:24:13-61
+259        <activity
+259-->[com.startapp:inapp-sdk:4.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\acab0fb87d5b087532e22ab49949cef3\jetified-inapp-sdk-4.3.0\AndroidManifest.xml:25:9-28:52
+260            android:name="com.startapp.android.publish.adsCommon.activities.FullScreenActivity"
+260-->[com.startapp:inapp-sdk:4.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\acab0fb87d5b087532e22ab49949cef3\jetified-inapp-sdk-4.3.0\AndroidManifest.xml:26:13-96
+261            android:configChanges="orientation|keyboardHidden|screenSize"
+261-->[com.startapp:inapp-sdk:4.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\acab0fb87d5b087532e22ab49949cef3\jetified-inapp-sdk-4.3.0\AndroidManifest.xml:27:13-74
+262            android:theme="@android:style/Theme" />
+262-->[com.startapp:inapp-sdk:4.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\acab0fb87d5b087532e22ab49949cef3\jetified-inapp-sdk-4.3.0\AndroidManifest.xml:28:13-49
+263
+264        <service android:name="com.startapp.android.publish.common.metaData.PeriodicMetaDataService" />
+264-->[com.startapp:inapp-sdk:4.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\acab0fb87d5b087532e22ab49949cef3\jetified-inapp-sdk-4.3.0\AndroidManifest.xml:30:9-104
+264-->[com.startapp:inapp-sdk:4.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\acab0fb87d5b087532e22ab49949cef3\jetified-inapp-sdk-4.3.0\AndroidManifest.xml:30:18-101
+265        <service android:name="com.startapp.android.publish.common.metaData.InfoEventService" />
+265-->[com.startapp:inapp-sdk:4.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\acab0fb87d5b087532e22ab49949cef3\jetified-inapp-sdk-4.3.0\AndroidManifest.xml:31:9-97
+265-->[com.startapp:inapp-sdk:4.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\acab0fb87d5b087532e22ab49949cef3\jetified-inapp-sdk-4.3.0\AndroidManifest.xml:31:18-94
+266        <service
+266-->[com.startapp:inapp-sdk:4.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\acab0fb87d5b087532e22ab49949cef3\jetified-inapp-sdk-4.3.0\AndroidManifest.xml:32:9-34:72
+267            android:name="com.startapp.android.publish.common.metaData.PeriodicJobService"
+267-->[com.startapp:inapp-sdk:4.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\acab0fb87d5b087532e22ab49949cef3\jetified-inapp-sdk-4.3.0\AndroidManifest.xml:33:13-91
+268            android:permission="android.permission.BIND_JOB_SERVICE" />
+268-->[com.startapp:inapp-sdk:4.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\acab0fb87d5b087532e22ab49949cef3\jetified-inapp-sdk-4.3.0\AndroidManifest.xml:34:13-69
+269
+270        <receiver android:name="com.startapp.android.publish.common.metaData.BootCompleteListener" >
+270-->[com.startapp:inapp-sdk:4.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\acab0fb87d5b087532e22ab49949cef3\jetified-inapp-sdk-4.3.0\AndroidManifest.xml:36:9-40:20
+270-->[com.startapp:inapp-sdk:4.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\acab0fb87d5b087532e22ab49949cef3\jetified-inapp-sdk-4.3.0\AndroidManifest.xml:36:19-99
+271            <intent-filter>
+271-->[com.startapp:inapp-sdk:4.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\acab0fb87d5b087532e22ab49949cef3\jetified-inapp-sdk-4.3.0\AndroidManifest.xml:37:13-39:29
+272                <action android:name="android.intent.action.BOOT_COMPLETED" />
+272-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:95:17-79
+272-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:95:25-76
+273            </intent-filter>
+274        </receiver>
+275
+276        <activity
+276-->[com.inmobi.monetization:inmobi-ads:9.0.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\e78f8afb00d73063026a20581ac0fd9a\jetified-inmobi-ads-9.0.2\AndroidManifest.xml:17:9-22:46
+277            android:name="com.inmobi.ads.rendering.InMobiAdActivity"
+277-->[com.inmobi.monetization:inmobi-ads:9.0.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\e78f8afb00d73063026a20581ac0fd9a\jetified-inmobi-ads-9.0.2\AndroidManifest.xml:18:13-69
+278            android:configChanges="keyboardHidden|orientation|keyboard|smallestScreenSize|screenSize|screenLayout|locale|fontScale|uiMode"
+278-->[com.inmobi.monetization:inmobi-ads:9.0.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\e78f8afb00d73063026a20581ac0fd9a\jetified-inmobi-ads-9.0.2\AndroidManifest.xml:19:13-139
+279            android:hardwareAccelerated="true"
+279-->[com.inmobi.monetization:inmobi-ads:9.0.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\e78f8afb00d73063026a20581ac0fd9a\jetified-inmobi-ads-9.0.2\AndroidManifest.xml:20:13-47
+280            android:theme="@android:style/Theme.NoTitleBar" />
+280-->[com.inmobi.monetization:inmobi-ads:9.0.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\e78f8afb00d73063026a20581ac0fd9a\jetified-inmobi-ads-9.0.2\AndroidManifest.xml:21:13-60
+281
+282        <receiver
+282-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\4f443e7ddedd14eb9d19a8110ce6fa42\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:29:9-33:20
+283            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+283-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\4f443e7ddedd14eb9d19a8110ce6fa42\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:30:13-85
+284            android:enabled="true"
+284-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\4f443e7ddedd14eb9d19a8110ce6fa42\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:31:13-35
+285            android:exported="false" >
+285-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\4f443e7ddedd14eb9d19a8110ce6fa42\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:32:13-37
+286        </receiver>
+287        <receiver
+287-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\4f443e7ddedd14eb9d19a8110ce6fa42\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:34:9-42:20
+288            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+288-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\4f443e7ddedd14eb9d19a8110ce6fa42\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:35:13-100
+289            android:enabled="true"
+289-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\4f443e7ddedd14eb9d19a8110ce6fa42\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:36:13-35
+290            android:exported="true"
+290-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\4f443e7ddedd14eb9d19a8110ce6fa42\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:37:13-36
+291            android:permission="android.permission.INSTALL_PACKAGES" >
+291-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\4f443e7ddedd14eb9d19a8110ce6fa42\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:38:13-69
+292            <intent-filter>
+292-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\4f443e7ddedd14eb9d19a8110ce6fa42\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:39:13-41:29
+293                <action android:name="com.android.vending.INSTALL_REFERRER" />
+293-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\4f443e7ddedd14eb9d19a8110ce6fa42\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:40:17-79
+293-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\4f443e7ddedd14eb9d19a8110ce6fa42\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:40:25-76
+294            </intent-filter>
+295        </receiver>
+296
+297        <service
+297-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\4f443e7ddedd14eb9d19a8110ce6fa42\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:44:9-47:40
+298            android:name="com.google.android.gms.measurement.AppMeasurementService"
+298-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\4f443e7ddedd14eb9d19a8110ce6fa42\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:45:13-84
+299            android:enabled="true"
+299-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\4f443e7ddedd14eb9d19a8110ce6fa42\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:46:13-35
+300            android:exported="false" />
+300-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\4f443e7ddedd14eb9d19a8110ce6fa42\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:47:13-37
+301        <service
+301-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\4f443e7ddedd14eb9d19a8110ce6fa42\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:48:9-52:72
+302            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+302-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\4f443e7ddedd14eb9d19a8110ce6fa42\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:49:13-87
+303            android:enabled="true"
+303-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\4f443e7ddedd14eb9d19a8110ce6fa42\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:50:13-35
+304            android:exported="false"
+304-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\4f443e7ddedd14eb9d19a8110ce6fa42\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:51:13-37
+305            android:permission="android.permission.BIND_JOB_SERVICE" />
+305-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\4f443e7ddedd14eb9d19a8110ce6fa42\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:52:13-69
+306        <service
+306-->[com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\b40e7d3e198b67bce5e35ea146f261e0\jetified-play-services-measurement-api-16.4.0\AndroidManifest.xml:27:9-33:19
+307            android:name="com.google.firebase.components.ComponentDiscoveryService"
+307-->[com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\b40e7d3e198b67bce5e35ea146f261e0\jetified-play-services-measurement-api-16.4.0\AndroidManifest.xml:28:13-84
+308            android:exported="false" >
+308-->[com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\b40e7d3e198b67bce5e35ea146f261e0\jetified-play-services-measurement-api-16.4.0\AndroidManifest.xml:29:13-37
+309            <meta-data
+309-->[com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\b40e7d3e198b67bce5e35ea146f261e0\jetified-play-services-measurement-api-16.4.0\AndroidManifest.xml:30:13-32:85
+310                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+310-->[com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\b40e7d3e198b67bce5e35ea146f261e0\jetified-play-services-measurement-api-16.4.0\AndroidManifest.xml:31:17-139
+311                android:value="com.google.firebase.components.ComponentRegistrar" />
+311-->[com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\b40e7d3e198b67bce5e35ea146f261e0\jetified-play-services-measurement-api-16.4.0\AndroidManifest.xml:32:17-82
+312            <meta-data
+312-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\7c93e91cb99114f48311cc21dc5ab2c5\jetified-firebase-iid-17.0.3\AndroidManifest.xml:32:13-34:85
+313                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+313-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\7c93e91cb99114f48311cc21dc5ab2c5\jetified-firebase-iid-17.0.3\AndroidManifest.xml:33:17-96
+314                android:value="com.google.firebase.components.ComponentRegistrar" />
+314-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\7c93e91cb99114f48311cc21dc5ab2c5\jetified-firebase-iid-17.0.3\AndroidManifest.xml:34:17-82
+315        </service>
+316        <!--
+317             FirebaseMessagingService performs security checks at runtime,
+318             no need for explicit permissions despite exported="true"
+319        -->
+320        <service
+320-->[com.google.firebase:firebase-messaging:17.3.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\139cffc814de21c5e7ef93c2e6ab667e\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:28:9-34:19
+321            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+321-->[com.google.firebase:firebase-messaging:17.3.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\139cffc814de21c5e7ef93c2e6ab667e\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:29:13-82
+322            android:exported="true" >
+322-->[com.google.firebase:firebase-messaging:17.3.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\139cffc814de21c5e7ef93c2e6ab667e\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:30:13-36
+323            <intent-filter android:priority="-500" >
+323-->[com.google.firebase:firebase-messaging:17.3.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\139cffc814de21c5e7ef93c2e6ab667e\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:31:13-33:29
+323-->[com.google.firebase:firebase-messaging:17.3.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\139cffc814de21c5e7ef93c2e6ab667e\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:31:28-51
+324                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+324-->[com.google.firebase:firebase-messaging:17.3.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\139cffc814de21c5e7ef93c2e6ab667e\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:32:17-78
+324-->[com.google.firebase:firebase-messaging:17.3.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\139cffc814de21c5e7ef93c2e6ab667e\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:32:25-75
+325            </intent-filter>
+326        </service>
+327
+328        <receiver
+328-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\7c93e91cb99114f48311cc21dc5ab2c5\jetified-firebase-iid-17.0.3\AndroidManifest.xml:37:9-44:20
+329            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+329-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\7c93e91cb99114f48311cc21dc5ab2c5\jetified-firebase-iid-17.0.3\AndroidManifest.xml:38:13-78
+330            android:exported="true"
+330-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\7c93e91cb99114f48311cc21dc5ab2c5\jetified-firebase-iid-17.0.3\AndroidManifest.xml:39:13-36
+331            android:permission="com.google.android.c2dm.permission.SEND" >
+331-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\7c93e91cb99114f48311cc21dc5ab2c5\jetified-firebase-iid-17.0.3\AndroidManifest.xml:40:13-73
+332            <intent-filter>
+332-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\7c93e91cb99114f48311cc21dc5ab2c5\jetified-firebase-iid-17.0.3\AndroidManifest.xml:41:13-43:29
+333                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+333-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:63:17-81
+333-->[com.onesignal:OneSignal:3.12.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\98488bd209e86a7f9cdb35ad9345f183\jetified-OneSignal-3.12.2\AndroidManifest.xml:63:25-78
+334            </intent-filter>
+335        </receiver>
+336        <!--
+337             FirebaseInstanceIdService performs security checks at runtime,
+338             no need for explicit permissions despite exported="true"
+339        -->
+340        <service
+340-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\7c93e91cb99114f48311cc21dc5ab2c5\jetified-firebase-iid-17.0.3\AndroidManifest.xml:50:9-56:19
+341            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+341-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\7c93e91cb99114f48311cc21dc5ab2c5\jetified-firebase-iid-17.0.3\AndroidManifest.xml:51:13-77
+342            android:exported="true" >
+342-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\7c93e91cb99114f48311cc21dc5ab2c5\jetified-firebase-iid-17.0.3\AndroidManifest.xml:52:13-36
+343            <intent-filter android:priority="-500" >
+343-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\7c93e91cb99114f48311cc21dc5ab2c5\jetified-firebase-iid-17.0.3\AndroidManifest.xml:53:13-55:29
+343-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\7c93e91cb99114f48311cc21dc5ab2c5\jetified-firebase-iid-17.0.3\AndroidManifest.xml:53:28-51
+344                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+344-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\7c93e91cb99114f48311cc21dc5ab2c5\jetified-firebase-iid-17.0.3\AndroidManifest.xml:54:17-80
+344-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\7c93e91cb99114f48311cc21dc5ab2c5\jetified-firebase-iid-17.0.3\AndroidManifest.xml:54:25-77
+345            </intent-filter>
+346        </service>
+347
+348        <activity
+348-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\503246db64dcbb120c121745b36c75fd\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+349            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+349-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\503246db64dcbb120c121745b36c75fd\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+350            android:exported="false"
+350-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\503246db64dcbb120c121745b36c75fd\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+351            android:theme="@android:style/Theme.Translucent.NoTitleBar" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+351-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\503246db64dcbb120c121745b36c75fd\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+352        <activity
+352-->[com.google.android.gms:play-services-ads-lite:17.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\fb05e5ba889b084c0a11f0199b552d4e\jetified-play-services-ads-lite-17.2.0\AndroidManifest.xml:29:9-33:64
+353            android:name="com.google.android.gms.ads.AdActivity"
+353-->[com.google.android.gms:play-services-ads-lite:17.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\fb05e5ba889b084c0a11f0199b552d4e\jetified-play-services-ads-lite-17.2.0\AndroidManifest.xml:30:13-65
+354            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+354-->[com.google.android.gms:play-services-ads-lite:17.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\fb05e5ba889b084c0a11f0199b552d4e\jetified-play-services-ads-lite-17.2.0\AndroidManifest.xml:31:13-122
+355            android:exported="false"
+355-->[com.google.android.gms:play-services-ads-lite:17.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\fb05e5ba889b084c0a11f0199b552d4e\jetified-play-services-ads-lite-17.2.0\AndroidManifest.xml:32:13-37
+356            android:theme="@android:style/Theme.Translucent" />
+356-->[com.google.android.gms:play-services-ads-lite:17.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\fb05e5ba889b084c0a11f0199b552d4e\jetified-play-services-ads-lite-17.2.0\AndroidManifest.xml:33:13-61
 357
-358        <receiver android:name="com.startapp.android.publish.common.metaData.BootCompleteListener" >
-358-->[com.startapp:inapp-sdk:4.3.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\2d8cbb622dbcfa708e01b820f87268d7\jetified-inapp-sdk-4.3.0\AndroidManifest.xml:36:9-40:20
-358-->[com.startapp:inapp-sdk:4.3.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\2d8cbb622dbcfa708e01b820f87268d7\jetified-inapp-sdk-4.3.0\AndroidManifest.xml:36:19-99
-359            <intent-filter>
-359-->[com.startapp:inapp-sdk:4.3.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\2d8cbb622dbcfa708e01b820f87268d7\jetified-inapp-sdk-4.3.0\AndroidManifest.xml:37:13-39:29
-360                <action android:name="android.intent.action.BOOT_COMPLETED" />
-360-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:95:17-79
-360-->[com.onesignal:OneSignal:3.12.2] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d124f66ff97a7d3781f4b518e15f903f\jetified-OneSignal-3.12.2\AndroidManifest.xml:95:25-76
-361            </intent-filter>
-362        </receiver>
-363    </application>
-364
-365</manifest>
+358        <provider
+358-->[com.google.android.gms:play-services-ads-lite:17.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\fb05e5ba889b084c0a11f0199b552d4e\jetified-play-services-ads-lite-17.2.0\AndroidManifest.xml:35:9-39:39
+359            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+359-->[com.google.android.gms:play-services-ads-lite:17.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\fb05e5ba889b084c0a11f0199b552d4e\jetified-play-services-ads-lite-17.2.0\AndroidManifest.xml:36:13-76
+360            android:authorities="com.newmovies2020.streamingmoviehd.mobileadsinitprovider"
+360-->[com.google.android.gms:play-services-ads-lite:17.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\fb05e5ba889b084c0a11f0199b552d4e\jetified-play-services-ads-lite-17.2.0\AndroidManifest.xml:37:13-73
+361            android:exported="false"
+361-->[com.google.android.gms:play-services-ads-lite:17.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\fb05e5ba889b084c0a11f0199b552d4e\jetified-play-services-ads-lite-17.2.0\AndroidManifest.xml:38:13-37
+362            android:initOrder="100" />
+362-->[com.google.android.gms:play-services-ads-lite:17.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\fb05e5ba889b084c0a11f0199b552d4e\jetified-play-services-ads-lite-17.2.0\AndroidManifest.xml:39:13-36
+363        <provider
+363-->[com.google.firebase:firebase-common:16.0.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\1964927872797a6276be8308c15fe991\jetified-firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
+364            android:name="com.google.firebase.provider.FirebaseInitProvider"
+364-->[com.google.firebase:firebase-common:16.0.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\1964927872797a6276be8308c15fe991\jetified-firebase-common-16.0.3\AndroidManifest.xml:11:13-77
+365            android:authorities="com.newmovies2020.streamingmoviehd.firebaseinitprovider"
+365-->[com.google.firebase:firebase-common:16.0.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\1964927872797a6276be8308c15fe991\jetified-firebase-common-16.0.3\AndroidManifest.xml:12:13-72
+366            android:exported="false"
+366-->[com.google.firebase:firebase-common:16.0.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\1964927872797a6276be8308c15fe991\jetified-firebase-common-16.0.3\AndroidManifest.xml:13:13-37
+367            android:initOrder="100" />
+367-->[com.google.firebase:firebase-common:16.0.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\1964927872797a6276be8308c15fe991\jetified-firebase-common-16.0.3\AndroidManifest.xml:14:13-36
+368
+369        <meta-data
+369-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\aa4361f22ef45bc201a872f433b4113d\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+370            android:name="com.google.android.gms.version"
+370-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\aa4361f22ef45bc201a872f433b4113d\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+371            android:value="@integer/google_play_services_version" />
+371-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\aa4361f22ef45bc201a872f433b4113d\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+372    </application>
+373
+374</manifest>

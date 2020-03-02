@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\PRIVATE\\newhdmov\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-bs-rBA\\values-bs-rBA.xml",
+            "outputFile": "C:\\Users\\admin\\StudioProjects\\hdmovievera\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-bs-rBA\\values-bs-rBA.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\FANDO\\.gradle\\caches\\transforms-2\\files-2.1\\1826297b940b185e58ff6468bfee56a4\\jetified-exoplayer-ui-2.7.3\\res\\values-bs-rBA\\values-bs-rBA.xml",
+                    "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-2\\files-2.1\\646a83eb5985c3e9e91a0c6fd0995941\\jetified-exoplayer-ui-2.7.3\\res\\values-bs-rBA\\values-bs-rBA.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",

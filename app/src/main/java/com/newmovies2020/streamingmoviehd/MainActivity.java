@@ -45,6 +45,10 @@ import android.widget.Switch;
 import android.widget.TextView;
 
 import com.google.firebase.analytics.FirebaseAnalytics;
+import com.inmobi.ads.InMobiAdRequestStatus;
+import com.inmobi.ads.InMobiInterstitial;
+import com.inmobi.ads.listeners.InterstitialAdEventListener;
+import com.inmobi.sdk.InMobiSdk;
 import com.newmovies2020.streamingmoviehd.newmovies2020_adapter.NavigationAdapter;
 import com.newmovies2020.streamingmoviehd.newmovies2020_fragment.LiveTvFragment;
 import com.newmovies2020.streamingmoviehd.newmovies2020_fragment.MoviesFragment;
@@ -59,9 +63,13 @@ import com.newmovies2020.streamingmoviehd.newmovies2020_utl.Constants;
 import com.newmovies2020.streamingmoviehd.newmovies2020_utl.SpacingItemDecoration;
 import com.newmovies2020.streamingmoviehd.newmovies2020_utl.Tools;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 import guy4444.smartrate.SmartRate;
 
@@ -118,6 +126,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         if (sharedPreferences.getBoolean("firstTime", true) == true) {
             showTermServicesDialog();
         }
+
+
+
 
 
 
@@ -586,7 +597,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         alertDialog.show();
     }
-
 
 
 

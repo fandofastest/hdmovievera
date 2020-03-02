@@ -1075,22 +1075,22 @@ public final class R {
         public static final int common_open_on_phone = 0x7f1100b1;
         public static final int common_signin_button_text = 0x7f1100b2;
         public static final int common_signin_button_text_long = 0x7f1100b3;
-        public static final int mr_button_content_description = 0x7f1100eb;
-        public static final int mr_chooser_searching = 0x7f1100f0;
-        public static final int mr_chooser_title = 0x7f1100f1;
-        public static final int mr_controller_casting_screen = 0x7f1100f3;
-        public static final int mr_controller_close_description = 0x7f1100f4;
-        public static final int mr_controller_collapse_group = 0x7f1100f5;
-        public static final int mr_controller_disconnect = 0x7f1100f6;
-        public static final int mr_controller_expand_group = 0x7f1100f7;
-        public static final int mr_controller_no_info_available = 0x7f1100f8;
-        public static final int mr_controller_no_media_selected = 0x7f1100f9;
-        public static final int mr_controller_pause = 0x7f1100fa;
-        public static final int mr_controller_play = 0x7f1100fb;
-        public static final int mr_controller_stop = 0x7f1100fc;
-        public static final int mr_system_route_name = 0x7f110101;
-        public static final int mr_user_route_category_name = 0x7f110102;
-        public static final int status_bar_notification_info_overflow = 0x7f11014a;
+        public static final int mr_button_content_description = 0x7f1100ef;
+        public static final int mr_chooser_searching = 0x7f1100f4;
+        public static final int mr_chooser_title = 0x7f1100f5;
+        public static final int mr_controller_casting_screen = 0x7f1100f7;
+        public static final int mr_controller_close_description = 0x7f1100f8;
+        public static final int mr_controller_collapse_group = 0x7f1100f9;
+        public static final int mr_controller_disconnect = 0x7f1100fa;
+        public static final int mr_controller_expand_group = 0x7f1100fb;
+        public static final int mr_controller_no_info_available = 0x7f1100fc;
+        public static final int mr_controller_no_media_selected = 0x7f1100fd;
+        public static final int mr_controller_pause = 0x7f1100fe;
+        public static final int mr_controller_play = 0x7f1100ff;
+        public static final int mr_controller_stop = 0x7f110100;
+        public static final int mr_system_route_name = 0x7f110105;
+        public static final int mr_user_route_category_name = 0x7f110106;
+        public static final int status_bar_notification_info_overflow = 0x7f11014e;
     }
     public static final class style {
         private style() {}

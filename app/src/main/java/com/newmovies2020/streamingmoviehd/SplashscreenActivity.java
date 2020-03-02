@@ -26,6 +26,9 @@ import com.facebook.ads.InterstitialAd;
 import com.facebook.ads.InterstitialAdListener;
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
+import com.inmobi.ads.InMobiAdRequestStatus;
+import com.inmobi.ads.InMobiInterstitial;
+import com.inmobi.sdk.InMobiSdk;
 import com.ixidev.gdpr.GDPRChecker;
 import com.newmovies2020.streamingmoviehd.newmovies2020_utl.ApiResources;
 import com.startapp.android.publish.adsCommon.StartAppAd;
@@ -34,6 +37,8 @@ import com.startapp.android.publish.adsCommon.adListeners.AdDisplayListener;
 
 import org.json.JSONException;
 import org.json.JSONObject;
+
+import java.util.Map;
 
 import static com.newmovies2020.streamingmoviehd.newmovies2020_utl.MyAppClass.getContext;
 
@@ -46,7 +51,7 @@ public class SplashscreenActivity extends AppCompatActivity {
     InterstitialAd fanInterstitialAd;
     private com.google.android.gms.ads.InterstitialAd mInterstitialAd;
     ProgressBar progressBar;
-
+    InMobiInterstitial interstitialAd;
     LinearLayout progresly;
     Button button;
     private String fanInterid;
@@ -74,6 +79,21 @@ public class SplashscreenActivity extends AppCompatActivity {
             }
         } else {
         }
+
+        //inmobi
+        JSONObject consentObject = new JSONObject();
+        try {
+            // Provide correct consent value to sdk which is obtained by User
+            consentObject.put(InMobiSdk.IM_GDPR_CONSENT_AVAILABLE, true);
+            // Provide 0 if GDPR is not applicable and 1 if applicable
+            consentObject.put("gdpr", "1");
+            // Provide user consent in IAB format
+            consentObject.put(InMobiSdk.IM_GDPR_CONSENT_IAB, "<<consent in IAB format>>");
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        InMobiSdk.init(this, "1585170476353", consentObject);
+
 
         //Toast.makeText(SplashscreenActivity.this, "login:"+ isLogedIn(), Toast.LENGTH_SHORT).show();
 //        Thread timer = new Thread() {
@@ -255,8 +275,11 @@ public class SplashscreenActivity extends AppCompatActivity {
                         button.setOnClickListener(new View.OnClickListener() {
                             @Override
                             public void onClick(View view) {
-                                loadinter(fanInterid);
+                               loadinter(fanInterid);
                                 progresly.setVisibility(View.VISIBLE);
+
+
+
                             }
                         });
                     }
@@ -323,44 +346,7 @@ public class SplashscreenActivity extends AppCompatActivity {
             @Override
             public void onAdFailedToLoad(int errorCode) {
 
-                StartAppAd startAppAd = new StartAppAd(getContext());
-                startAppAd.showAd(new AdDisplayListener() {
-                    @Override
-                    public void adHidden(com.startapp.android.publish.adsCommon.Ad ad) {
-                        progresly.setVisibility(View.GONE);
-
-                        Intent intent = new Intent(SplashscreenActivity.this,MainActivity.class);
-
-                        startActivity(intent);
-
-                    }
-
-                    @Override
-                    public void adDisplayed(com.startapp.android.publish.adsCommon.Ad ad) {
-
-                    }
-
-                    @Override
-                    public void adClicked(com.startapp.android.publish.adsCommon.Ad ad) {
-                        progresly.setVisibility(View.GONE);
-
-                        Intent intent = new Intent(SplashscreenActivity.this,MainActivity.class);
-
-                        startActivity(intent);
-
-                    }
-
-                    @Override
-                    public void adNotDisplayed(com.startapp.android.publish.adsCommon.Ad ad) {
-
-                        progresly.setVisibility(View.GONE);
-
-                        Intent intent = new Intent(SplashscreenActivity.this,MainActivity.class);
-
-                        startActivity(intent);
-
-                    }
-                })   ;
+                loadinmobi();
 
 
 //                final Handler   handler = new Handler();
@@ -476,6 +462,217 @@ public class SplashscreenActivity extends AppCompatActivity {
 
 
     }
+
+
+    private void loadinmobi(){
+
+
+
+
+        InterstitialAdEventListener mInterstitialAdEventListener = new InterstitialAdEventListener() {
+            @Override
+            public void onAdLoadSucceeded(InMobiInterstitial ad) {
+                super.onAdLoadSucceeded(ad);
+                interstitialAd.show();
+            }
+
+            @Override
+            public void onAdLoadFailed(InMobiInterstitial ad, InMobiAdRequestStatus status) {
+                super.onAdLoadFailed(ad, status);
+
+
+
+                StartAppAd startAppAd = new StartAppAd(getContext());
+                startAppAd.showAd(new AdDisplayListener() {
+                    @Override
+                    public void adHidden(com.startapp.android.publish.adsCommon.Ad ad) {
+                        progresly.setVisibility(View.GONE);
+
+                        Intent intent = new Intent(SplashscreenActivity.this,MainActivity.class);
+
+                        startActivity(intent);
+
+                    }
+
+                    @Override
+                    public void adDisplayed(com.startapp.android.publish.adsCommon.Ad ad) {
+
+                    }
+
+                    @Override
+                    public void adClicked(com.startapp.android.publish.adsCommon.Ad ad) {
+                        progresly.setVisibility(View.GONE);
+
+                        Intent intent = new Intent(SplashscreenActivity.this,MainActivity.class);
+
+                        startActivity(intent);
+
+                    }
+
+                    @Override
+                    public void adNotDisplayed(com.startapp.android.publish.adsCommon.Ad ad) {
+
+                        progresly.setVisibility(View.GONE);
+
+                        Intent intent = new Intent(SplashscreenActivity.this,MainActivity.class);
+
+                        startActivity(intent);
+
+                    }
+                })   ;
+            }
+
+            @Override
+            public void onAdReceived(InMobiInterstitial ad) {
+                super.onAdReceived(ad);
+            }
+
+            @Override
+            public void onAdClicked(InMobiInterstitial ad, Map<Object, Object> params) {
+                super.onAdClicked(ad, params);
+                progresly.setVisibility(View.GONE);
+
+            }
+
+            @Override
+            public void onAdWillDisplay(InMobiInterstitial ad) {
+                super.onAdWillDisplay(ad);
+                progresly.setVisibility(View.GONE);
+
+            }
+
+            @Override
+            public void onAdDisplayed(InMobiInterstitial ad) {
+                super.onAdDisplayed(ad);
+            }
+
+            @Override
+            public void onAdDisplayFailed(InMobiInterstitial ad) {
+                super.onAdDisplayFailed(ad);
+            }
+
+            @Override
+            public void onAdDismissed(InMobiInterstitial ad) {
+                super.onAdDismissed(ad);
+                progresly.setVisibility(View.GONE);
+
+                Intent intent = new Intent(SplashscreenActivity.this,MainActivity.class);
+
+                startActivity(intent);
+            }
+
+            @Override
+            public void onUserLeftApplication(InMobiInterstitial ad) {
+                super.onUserLeftApplication(ad);
+            }
+
+            @Override
+            public void onRewardsUnlocked(InMobiInterstitial ad, Map<Object, Object> rewards) {
+                super.onRewardsUnlocked(ad, rewards);
+            }
+
+            @Override
+            public void onRequestPayloadCreated(byte[] bytes) {
+                super.onRequestPayloadCreated(bytes);
+            }
+
+            @Override
+            public void onRequestPayloadCreationFailed(InMobiAdRequestStatus inMobiAdRequestStatus) {
+                super.onRequestPayloadCreationFailed(inMobiAdRequestStatus);
+            }
+        };
+
+
+         interstitialAd = new InMobiInterstitial(SplashscreenActivity.this, 1582481116106L, mInterstitialAdEventListener);
+
+        interstitialAd.load();
+
+
+
+
+    }
+
+
+    /**
+     * Listener for receiving notifications during the lifecycle of an interstitial.
+     */
+    public abstract class InterstitialAdEventListener extends com.inmobi.ads.listeners.InterstitialAdEventListener {
+        /**
+         * Called to indicate that an ad was loaded and it can now be shown. This will always be called
+         * <strong>after</strong> the {@link #onAdReceived(InMobiInterstitial)} callback.
+         *
+         * @param ad Represents the {@link InMobiInterstitial} ad which was loaded
+         */
+        public void onAdLoadSucceeded(InMobiInterstitial ad) {}
+        /**
+         * Callback to signal that a request to fetch an ad (by calling
+         * {@link InMobiInterstitial#load()} failed. The status code indicating the reason for failure
+         * is available as a parameter. You should call {@link InMobiInterstitial#load()} again to
+         * request a fresh ad.
+         *
+         * @param ad Represents the {@link InMobiInterstitial} ad which failed to load
+         * @param status Represents the {@link InMobiAdRequestStatus} status containing error reason
+         */
+        public void onAdLoadFailed(InMobiInterstitial ad, InMobiAdRequestStatus status) {}
+        /**
+         * Called to indicate that an ad is available in response to a request for an ad (by calling
+         * {@link InMobiInterstitial#load()}. <p class="note"><strong>Note</strong> This does not
+         * indicate that the ad can be shown yet. Your code should show an ad <strong>after</strong> the
+         * {@link #onAdLoadSucceeded(InMobiInterstitial)} method is called. Alternately, if you do not
+         * want to handle this event, you must test if the ad is ready to be shown by checking the
+         * result of calling the {@link InMobiInterstitial#isReady()} method.</p>
+         *
+         * @param ad Represents the {@link InMobiInterstitial} ad for which ad content was received
+         */
+        public void onAdReceived(InMobiInterstitial ad) {}
+        /**
+         * Called to indicate that an ad interaction was observed.
+         *
+         * @param ad Represents the {@link InMobiInterstitial} ad on which user clicked
+         * @param params Represents the click parameters
+         */
+        public void onAdClicked(InMobiInterstitial ad, Map<Object, Object> params) {}
+        /**
+         * Called to indicate that the ad will be launching a fullscreen overlay.
+         *
+         * @param ad Represents the {@link InMobiInterstitial} ad which will display
+         */
+        public void onAdWillDisplay(InMobiInterstitial ad) {}
+        /**
+         * Called to indicate that the fullscreen overlay is now the topmost screen.
+         *
+         * @param ad Represents the {@link InMobiInterstitial} ad which is displayed
+         */
+        public void onAdDisplayed(InMobiInterstitial ad) {}
+        /**
+         * Called to indicate that a request to show an ad (by calling {@link InMobiInterstitial#show()}
+         * failed. You should call {@link InMobiInterstitial#load()} to request for a fresh ad.
+         *
+         * @param ad Represents the {@link InMobiInterstitial} ad which failed to show
+         */
+        public void onAdDisplayFailed(InMobiInterstitial ad) {}
+        /**
+         * Called to indicate that the fullscreen overlay opened by the ad was closed.
+         *
+         * @param ad Represents the {@link InMobiInterstitial} ad which was dismissed
+         */
+        public void onAdDismissed(InMobiInterstitial ad) {}
+        /**
+         * Called to indicate that the user may leave the application on account of interacting with the ad.
+         *
+         * @param ad Represents the {@link InMobiInterstitial} ad
+         */
+        public void onUserLeftApplication(InMobiInterstitial ad) {}
+        /**
+         * Called to indicate that rewards have been unlocked.
+         *
+         * @param ad Represents the {@link InMobiInterstitial} ad for which rewards was unlocked
+         * @param rewards Represents the rewards unlocked
+         */
+        public void onRewardsUnlocked(InMobiInterstitial ad, Map<Object, Object> rewards) {}
+    }
+
+
 
 
 

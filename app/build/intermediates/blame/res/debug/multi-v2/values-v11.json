@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\PRIVATE\\newhdmov\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+            "outputFile": "C:\\Users\\admin\\StudioProjects\\hdmovievera\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\FANDO\\.gradle\\caches\\transforms-2\\files-2.1\\d649f492592e73786edf75dbb2404e0d\\jetified-ccl-2.8.4\\res\\values-v11\\values-v11.xml",
+                    "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-2\\files-2.1\\0a3c7c00ad68d3f29c96d8b77eb8fa64\\jetified-ccl-2.8.4\\res\\values-v11\\values-v11.xml",
                     "from": {
                         "startLines": "4,7",
                         "startColumns": "4,4",

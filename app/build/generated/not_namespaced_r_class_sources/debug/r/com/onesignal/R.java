@@ -266,8 +266,8 @@ public final class R {
         public static final int common_open_on_phone = 0x7f1100b1;
         public static final int common_signin_button_text = 0x7f1100b2;
         public static final int common_signin_button_text_long = 0x7f1100b3;
-        public static final int fcm_fallback_notification_channel_label = 0x7f1100d6;
-        public static final int status_bar_notification_info_overflow = 0x7f11014a;
+        public static final int fcm_fallback_notification_channel_label = 0x7f1100da;
+        public static final int status_bar_notification_info_overflow = 0x7f11014e;
     }
     public static final class style {
         private style() {}
